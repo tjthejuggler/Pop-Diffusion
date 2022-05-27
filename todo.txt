@@ -1,0 +1,60 @@
+does seed change with every image?  yes, only the first animation image uses the seed that is user provided, the rest are random
+
+figure out a way to test code from in here
+  maybe replace google drive with a local folder
+
+if video isnt square then crop it to make a label video?
+
+integrate an option to use frame interpolation? rife or the other may be much better on a v100
+
+make a normal copy of the video too?
+
+make a "ramp" from one prompt to another
+
+convert frame skip steps into steps
+  this can be a seperate input that goes below it and we can use one or the other. In fact, we can make a special print or something that gives us one if we give the other.
+
+instead of seperate blanks for the new series and old inputs, just make the same blank work
+
+an estimated completion time would be cool, but probably difficult
+
+
+
+info:
+  limit size of stats
+    reduce font size
+  make stats show in two columns?
+  show steps (the actual steps being used after skip steps was taken away)
+  show the most recent prompt
+  find other settings that would be useful to see
+
+some way to take prompts into account and automatically change settings when a new prompt image is important and should be high quality, maybe even ramping stuff down or something afterwards
+
+do certain seed numbers always behave weirdly, good, bad..?
+
+show file name by image and progress bars
+show any new setting that is being used there too
+
+save average it/s to new text file save list of changing settings to text file
+
+i shouldnt have to rewrite stuff into the new settings if they are staying the same as the 0 frame in the normal settings above
+
+remember to make everything show in settings
+
+dynamically changing prmpts would be cool, it could look at the images and automatically make new prompts based on what it sees
+
+learn about skip_augs
+
+look into making models be done with the "new" system
+
+possible to use new init images throughout the print? maybe something involving reverse or something to make it gradually go from one init to another through a prompt? not really thought out yet..
+
+a way to make comparisons of two different changing settings or a control next to each other in one video. Ex: show two slideshows in the same video, in one of them sat_scale is changing, in the other one it is not, and everything else is the same.
+
+a grid comparison of changing settings and their combinations, this could even be a 3d grid or a many dimension grid that is viewed by changing settings(between pre-defined, pre-printed settings) and seeing result in real time
+
+hook this up to keep looking at the image and make new prompts as it goes:
+https://colab.research.google.com/drive/1FwGEVKXvmpeMvAYqGr4z7Nt3llaZz-F8
+-it could also be hooked up to something that makes it use better/longer settings as new images are being made
+
+try something that ramps up detail as new prompts are made. try that with the auto-prompt writing above
