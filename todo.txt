@@ -7,8 +7,6 @@ if video isnt square then crop it to make a label video?
 
 integrate an option to use frame interpolation? rife or the other may be much better on a v100
 
-make a normal copy of the video too?
-
 make a "ramp" from one prompt to another
 
 convert frame skip steps into steps
@@ -25,7 +23,6 @@ info:
     reduce font size
   make stats show in two columns?
   show steps (the actual steps being used after skip steps was taken away)
-  show the most recent prompt
   find other settings that would be useful to see
 
 some way to take prompts into account and automatically change settings when a new prompt image is important and should be high quality, maybe even ramping stuff down or something afterwards
