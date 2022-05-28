@@ -1,0 +1,3 @@
+do certain seed numbers always behave weirdly, good, bad..?
+
+does seed change with every image?  yes, only the first animation image uses the seed that is user provided, the rest are random

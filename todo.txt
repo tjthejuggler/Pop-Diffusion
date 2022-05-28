@@ -1,10 +1,6 @@
-does seed change with every image?  yes, only the first animation image uses the seed that is user provided, the rest are random
 
 figure out a way to test code from in here
   maybe replace google drive with a local folder
-
-
-integrate an option to use frame interpolation? rife or the other may be much better on a v100
 
 make a "ramp" from one prompt to another
 
@@ -15,8 +11,6 @@ instead of seperate blanks for the new series and old inputs, just make the same
 
 an estimated completion time would be cool, but probably difficult
 
-
-
 info:
   limit size of stats
     reduce font size
@@ -26,7 +20,7 @@ info:
 
 some way to take prompts into account and automatically change settings when a new prompt image is important and should be high quality, maybe even ramping stuff down or something afterwards
 
-do certain seed numbers always behave weirdly, good, bad..?
+
 
 show file name by image and progress bars
 show any new setting that is being used there too
