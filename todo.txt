@@ -3,7 +3,6 @@ does seed change with every image?  yes, only the first animation image uses the
 figure out a way to test code from in here
   maybe replace google drive with a local folder
 
-if video isnt square then crop it to make a label video?
 
 integrate an option to use frame interpolation? rife or the other may be much better on a v100
 
