@@ -1,4 +1,5 @@
-make an input for times_to_interpolate
+interpolations should occasionally be saved and the whole thing should be in a loop so that if we get disconnected we can not lose images
+  this means we need to check our output folder when determining what frame to start from
 
 figure out a way to test code from in here
   maybe replace google drive with a local folder
