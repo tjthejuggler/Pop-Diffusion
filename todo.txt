@@ -4,6 +4,8 @@ make arctic stuff be optional
 make arctic inputs and hook it up to the actual prompts object so it isnt just for a single frame
 figure out how many arctic prompts to use, maybe make it a setting input
 
+update my todo with this
+
 put lots of optional stuff at the very top instead of having it literred all around
 
 interpolations should occasionally be saved and the whole thing should be in a loop so that if we get disconnected we can not lose images
