@@ -1,5 +1,10 @@
 interpolations should occasionally be saved and the whole thing should be in a loop so that if we get disconnected we can not lose images
   this means we need to check our output folder when determining what frame to start from
+  maybe make a bunch of folders of non-interpolated images
+    once we have the first folder complete and exist, we move the contents of the interpolated folder over to a complete interpolation folder
+      then we start on the next batch
+      a possible issue with this is that it starts filling the interpolation folder before it finishes and can take a little time
+      another possible issue is naming issues, i don't know how it names interpolated images and if all these different folders wwill smoothly merge together
 
 figure out a way to test code from in here
   maybe replace google drive with a local folder
