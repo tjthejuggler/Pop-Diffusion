@@ -5,6 +5,7 @@ make arctic inputs and hook it up to the actual prompts object so it isnt just f
 figure out how many arctic prompts to use, maybe make it a setting input
 
 interpolate.mp4 should be changed to something with project name in it
+  this should be working now
 
 some sort of absolute frame multiplier setting that can be changed and it adjusts all frame numbers everywhere by that amount
   this way i dont have to go all around to change frame numbers to try things twice or half as long
