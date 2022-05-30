@@ -7,6 +7,9 @@ figure out how many arctic prompts to use, maybe make it a setting input
 some sort of absolute frame multiplier setting that can be changed and it adjusts all frame numbers everywhere by that amount
   this way i dont have to go all around to change frame numbers to try things twice or half as long
 
+antarctica
+  x10 should be a new prompt every 10 frames
+
 get rid of that old new_frames setting
 
 find a way to auto load certain testing settings
