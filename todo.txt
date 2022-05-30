@@ -11,6 +11,10 @@ antarctica
   x10 should be a new prompt every 10 frames
   i should be able to put something after the antarctica prompt "...,trending on artstation"
 
+  bug:
+    crashes sometimes from memory error
+    if it crashes and resumes then i lose all the antarctica prompts
+
 get rid of that old new_frames setting
 
 find a way to auto load certain testing settings
