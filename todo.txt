@@ -6,6 +6,16 @@ figure out how many arctic prompts to use, maybe make it a setting input
 
 interpolate.mp4 should be changed to something with project name in it
 
+some sort of absolute frame multiplier setting that can be changed and it adjusts all frame numbers everywhere by that amount
+  this way i dont have to go all around to change frame numbers to try things twice or half as long
+
+get rid of that old new_frames setting
+
+look for a vscode extension that will make jupyter easier to navigate, maybe i even already have settings for it, can 
+  calls be collapsed?
+
+
+
 interpolation mount fails, prolly just take it out
 
 update my todo with this
