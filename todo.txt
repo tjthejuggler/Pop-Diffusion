@@ -11,12 +11,8 @@ some sort of absolute frame multiplier setting that can be changed and it adjust
 
 get rid of that old new_frames setting
 
-look for a vscode extension that will make jupyter easier to navigate, maybe i even already have settings for it, can 
-  calls be collapsed?
-
-
-
 interpolation mount fails, prolly just take it out
+  is this working now?
 
 update my todo with this
 
