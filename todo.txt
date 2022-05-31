@@ -13,6 +13,8 @@ hook up another ai that determines category of antarctic phrases and choose arti
 a way to load settings from settings file
   this would be instead of prompt presets
 
+test info and prompt videos without antarctic prompts
+
 try antarctic with just an init image and either skip all steps on first prompt or get it to make even the first prompt
   so this way it is completely the ai deciding what to do
 

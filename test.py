@@ -23,5 +23,12 @@ print(absolute_key_frame_multiplier("0:(0.0),2:(1.0),12:(0.4)"))
 print(absolute_key_frame_multiplier("0:(10),2:(99),12:(55)"))
 
 
+#a sample dict with integer keys
+d = {1: 'one', 2: 'two', 3: 'three'}
+#get the value of the highest key that is less than 3
+print(d.get(max(k for k in d if k < 3)))
+
+
+
 
 
