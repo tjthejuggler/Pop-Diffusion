@@ -10,10 +10,8 @@ hook up another ai that determines category of antarctic phrases and choose arti
     crashes sometimes from memory error
     if it crashes and resumes then i lose all the antarctica prompts
 
-
-
-find a way to auto load certain testing settings
-  maybe just a checkbox that overrides everything and puts in settings
+a way to load settings from settings file
+  this would be instead of prompt presets
 
 try antarctic with just an init image and either skip all steps on first prompt or get it to make even the first prompt
   so this way it is completely the ai deciding what to do
