@@ -1,29 +1,8 @@
-figure out what parts of arctic stuff can be downloaded to google drive instead of temporary storage
-  also, annoyingly right now google prompt doesnt come up intil after arctic stuff completes
-make arctic stuff be optional
-make arctic inputs and hook it up to the actual prompts object so it isnt just for a single frame
-figure out how many arctic prompts to use, maybe make it a setting input
-
-some sort of absolute frame multiplier setting that can be changed and it adjusts all frame numbers everywhere by that amount
-  this way i dont have to go all around to change frame numbers to try things twice or half as long
-
 an option to show prompt/s over image
   maybe on top of(with or without a background), maybe above or below image
   maybe show it with put text onto each original X image so that it zooms or moves with the animation
 
-
-test current multippier x4,       4
-
-
 hook up another ai that determines category of antarctic phrases and choose artists/modifiers from list 
-
-
-
-
-
-antarctica
-  x10 should be a new prompt every 10 frames
-  i should be able to put something after the antarctica prompt "...,trending on artstation"
 
   bug:
     crashes sometimes from memory error
@@ -36,11 +15,6 @@ find a way to auto load certain testing settings
 
 try antarctic with just an init image and either skip all steps on first prompt or get it to make even the first prompt
   so this way it is completely the ai deciding what to do
-
-interpolation mount fails, prolly just take it out
-  is this working now?
-
-update my todo with this
 
 put lots of optional stuff at the very top instead of having it literred all around
 
