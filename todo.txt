@@ -1,6 +1,8 @@
 an option to show prompt/s over image
   maybe on top of(with or without a background), maybe above or below image
   maybe show it with put text onto each original X image so that it zooms or moves with the animation
+  in order to do prompt overlay on top of interpolated video we need to make the video ourself with
+        the interpolation output images
 
 hook up another ai that determines category of antarctic phrases and choose artists/modifiers from list 
 
@@ -8,7 +10,7 @@ hook up another ai that determines category of antarctic phrases and choose arti
     crashes sometimes from memory error
     if it crashes and resumes then i lose all the antarctica prompts
 
-get rid of that old new_frames setting
+
 
 find a way to auto load certain testing settings
   maybe just a checkbox that overrides everything and puts in settings
