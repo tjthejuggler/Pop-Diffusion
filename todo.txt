@@ -77,6 +77,10 @@ info:
 show any new setting that is being used there too
   maybe just show all settings here
 
+maybe consider moving other things out of main file(not sure, maybe best not to try having more than 2 notebooks running)
+
+find out how many notebooks other people are running at same time in pro+
+
 save average it/s to new text file save list of changing settings to text file
   make sure this is happening
 
