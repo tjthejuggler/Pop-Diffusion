@@ -77,6 +77,13 @@ info:
 show any new setting that is being used there too
   maybe just show all settings here
 
+when we to auto targeted zoom i think we need to have a ration between horizontal and vertical and maybe a speed based on
+  distance from center the target is (if we are trying to be able to get to any target location in the same number of frames)
+
+maybe sometimes we pick a target based on how much it has to do with current or next prompt, not sure
+
+maybe sometimes we use the label of the target to help create the next prompt with gpt3
+
 maybe consider moving other things out of main file(not sure, maybe best not to try having more than 2 notebooks running)
 
 find out how many notebooks other people are running at same time in pro+
