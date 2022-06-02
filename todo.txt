@@ -10,6 +10,34 @@ hook up another ai that determines category of antarctic phrases and choose arti
     crashes sometimes from memory error
     if it crashes and resumes then i lose all the antarctica prompts
 
+if we were to break our image into several parts and do image to text on each part and then ask another gpt ai 
+  which of thouse parts is the most interesting, then we could start zooming into that area by using a combination of 
+  translationx,y and zoom. or, if the whole image is the most interesting, then we could start zooming out. We could
+  just provide the ai with times to do this. maybe to match a song also provide some forced imagery too.
+
+try this without another machine running:
+https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/GPT-J-6B/Inference_with_GPT_J_6B.ipynb#scrollTo=9vnZfO1HGSS7
+
+Object Detection:
+  this should get all set up and then just wait around in a nested while loop
+    first loop never ends(maybe eventually it does with some sort of finish command)
+      second loop waits for an image to appear
+        when it appears the processing is done to it and it finds the object with the most % that is (under a certain size?)
+          a text file is written that gives info on the object that was found
+            center of object - with resizing taken into consideration
+            name of object?
+          we have a similar while loop over in pop-diffusion after an image is sent that waits for a response text
+            we then use that response text to set a sequence of translation/zoom
+
+  when given the coords of the center of the image we need to figure out how to programatically zoom into it
+  this OD redirection can happen at certain pre determined frames so it can go to music
+
+  once we get this wait/response thing worked out we should be able to use it to break up the interpolation issue
+  
+gpt3 can be used to combine object detected and current prompt into a new prompt
+
+
+
 a way to load settings from settings file
   this would be instead of prompt presets
 
