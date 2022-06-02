@@ -1,4 +1,9 @@
 directory = '/content/drive/MyDrive/AI/Object_Detection/request'
+
+#if directory does not exist, create it
+if not os.path.exists(directory):
+    os.makedirs(directory)
+
 #while directory is empty
 while len(os.listdir(directory)) == 0:
     time.sleep(1)
