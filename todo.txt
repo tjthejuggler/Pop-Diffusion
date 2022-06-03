@@ -36,6 +36,8 @@ Object Detection:
   
 gpt3 can be used to combine object detected and current prompt into a new prompt
 
+maybe antarctic prompts can be outsourced to the same TPU that is doing object detection to try and save on gpu usage,
+   it could be done in a while loop that keeps checking two different folders for workloads
 
 
 a way to load settings from settings file
