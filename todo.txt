@@ -33,7 +33,21 @@ Object Detection:
   this OD redirection can happen at certain pre determined frames so it can go to music
 
   once we get this wait/response thing worked out we should be able to use it to break up the interpolation issue
-  
+
+Object_Detection zooming
+  get an image and the coords of the box im headed to
+  pick either:
+    number of frames to reach goal
+    speed to head towards goal
+    --------for both of these we probably want to pace it so that we reach both at the same time
+  figure required zoom based on image size and bounding box size
+    given relative dimensions, figure out if h or v will be the first to reach its bound
+      percent.py does this, but we probably want some sort of variation of it because it would take a long time,
+        we want to get to the center before the zoom is taking up the whole screen
+  figure number of hor pixels and vert pixels to get to both at the same time
+
+50 * 1.01 is 
+
 gpt3 can be used to combine object detected and current prompt into a new prompt
 
 maybe antarctic prompts can be outsourced to the same TPU that is doing object detection to try and save on gpu usage,
