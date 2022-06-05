@@ -45,8 +45,19 @@ Object_Detection zooming
       percent.py does this, but we probably want some sort of variation of it because it would take a long time,
         we want to get to the center before the zoom is taking up the whole screen
   figure number of hor pixels and vert pixels to get to both at the same time
+  Once we get this zooming worked out, we can make a temp image of the thing we are zooming into and send it to
+    antarctic prompts to get a description of it and change the prompt to that while it is zooming
 
-50 * 1.01 is 
+play with cut_pow less than one
+
+a button to cancel current frame/image and delete it
+
+make cutn scheduling have new animation mode so it can be different from frame to frame
+
+there could be an object detection mode that always zooms to a certain thing, for example the prompt is a face
+  and the object detection target is an eye, so it keeps making faces and zooming into eyes
+
+figure out about finetunning and see if can fine tune on zippys and discord channels to make a helpful DD bot
 
 gpt3 can be used to combine object detected and current prompt into a new prompt
 
