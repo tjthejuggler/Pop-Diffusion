@@ -34,6 +34,8 @@ Object Detection:
 
   once we get this wait/response thing worked out we should be able to use it to break up the interpolation issue
 
+multiply prompts by absolute multiplier
+
 Object_Detection zooming
   get an image and the coords of the box im headed to
   pick either:
@@ -49,6 +51,8 @@ Object_Detection zooming
     antarctic prompts to get a description of it and change the prompt to that while it is zooming
 
 play with cut_pow less than one
+
+when i do a series of images in a batch, i should be able to get the seed of each one (when it is on random)
 
 a button to cancel current frame/image and delete it
 
