@@ -36,6 +36,10 @@ Object Detection:
 
 multiply prompts by absolute multiplier
 
+other info text file should keep track of total time in PD, time in Interpolation, Interpolation settings, GPU name
+
+this text file should also be automatically saved as a gist and go through the whole automatic youtube creation thing
+
 Object_Detection zooming
   get an image and the coords of the box im headed to
   pick either:
