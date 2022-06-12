@@ -1,0 +1,20 @@
+Features
+
+Antarctic prompts
+    -On frames indicated in 'antarctic_prompt_frames_input', "Antarctic image-to-text AI" will look at the image and create a new prompt which will be added to the prompt list for that frame.
+    -Words can be added to the begining and end of the generate prompt
+    -Any number of prompts can be created for a given frame
+
+Different Settings for different Frames
+    -Most of the settings can be set like the animation settings in the format "frame#: (setting), frame#: (setting), ..."
+    for example: cutn_batches - "0: (8), 100: (2)"
+        this will make a series that goes down from 8 to 2 over the first 100 frames
+
+Object Detection:
+    -
+
+Videos:
+    -several new types of videos have been added
+    -there is an info video that puts some settings to the left of every frame, by default this goes to 1 frame a second
+    -there is a video that shows the prompt for each frame over top the frame
+    -there is a FILM interpolation video that has its own settings
