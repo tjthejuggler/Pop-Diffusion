@@ -41,16 +41,6 @@ other info text file should keep track of total time in PD, time in Interpolatio
 this text file should also be automatically saved as a gist and go through the whole automatic youtube creation thing
 
 OBJECT Detection
-this at 32 frames because the 30 finished and center was just ()
-<ipython-input-24-d2814bcf83e7> in do_run()
-    441               [0, 1, translation_y]]
-    442           )
---> 443           rot_mat = cv2.getRotationMatrix2D( center, angle, zoom )
-    444           trans_mat = np.vstack([trans_mat, [0,0,1]])
-    445           rot_mat = np.vstack([rot_mat, [0,0,1]])
-
-TypeError: function takes exactly 2 arguments (0 given)
-
 i think zoom is going in wrong direction, it gives me a .99 zoom, but i think it should be higher than 1
 make a way for TPU to turn itself off if it hasnt been used for an object in awhile
 make a print of the object that is being zoomed in on (this means send it over from the TPU)
