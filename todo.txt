@@ -42,6 +42,7 @@ this text file should also be automatically saved as a gist and go through the w
 
 OBJECT Detection
 i think zoom is going in wrong direction, it gives me a .99 zoom, but i think it should be higher than 1
+  maybe fixed
 make a way for TPU to turn itself off if it hasnt been used for an object in awhile
 make a print of the object that is being zoomed in on (this means send it over from the TPU)
 clean out todos
