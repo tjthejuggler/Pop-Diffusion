@@ -6,6 +6,11 @@ an option to show prompt/s over image
 
 hook up another ai that determines category of antarctic phrases and choose artists/modifiers from list 
 
+3D for color:
+  if zippy 3d color fx works well,
+    get PD set up for 3d and move color fx stuff over
+    once this is done, maybe make the first frame become the color pallete for the rest with an option to change it to a later frame
+
   bug:
     crashes sometimes from memory error
     if it crashes and resumes then i lose all the antarctica prompts
