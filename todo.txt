@@ -1,3 +1,6 @@
+bugs:
+  average step times not working
+
 an option to show prompt/s over image
   maybe on top of(with or without a background), maybe above or below image
   maybe show it with put text onto each original X image so that it zooms or moves with the animation
