@@ -1,6 +1,12 @@
 bugs:
   average step times not working
 
+antarctic not working as is
+  try moving the imports that are before it to after it and see if that fixes the issue
+  maybe try moving it over to a seperate TPU
+    first check to see if it can run on a TPU, i thnk it can
+    this cuts not + users off from being able to use it..
+
 an option to show prompt/s over image
   maybe on top of(with or without a background), maybe above or below image
   maybe show it with put text onto each original X image so that it zooms or moves with the animation
