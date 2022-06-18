@@ -2,6 +2,7 @@ bugs:
   average step times not working
 
 antarctic not working as is
+  CURRENTLY IN THE MIDST OF PUTTING ANTARCTIC STUFF INTO OBJECT_DETECTION FILE
   try moving the imports that are before it to after it and see if that fixes the issue
   maybe try moving it over to a seperate TPU
     first check to see if it can run on a TPU, i thnk it can
