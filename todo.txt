@@ -1,12 +1,13 @@
 bugs:
   average step times not working
 
-antarctic not working as is
-  CURRENTLY IN THE MIDST OF PUTTING ANTARCTIC STUFF INTO OBJECT_DETECTION FILE
-  try moving the imports that are before it to after it and see if that fixes the issue
-  maybe try moving it over to a seperate TPU
-    first check to see if it can run on a TPU, i thnk it can
-    this cuts not + users off from being able to use it..
+make antarctic prompts show the prompts they make in the TPU program
+
+get better at github with H so can have multiple branches going and merge smoothly
+
+integrate Hs github/ youtube stuff into this
+
+how can antarctic prompts happen with one TPU and multiple main programs?
 
 an option to show prompt/s over image
   maybe on top of(with or without a background), maybe above or below image
