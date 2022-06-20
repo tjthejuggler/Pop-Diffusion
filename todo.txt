@@ -175,6 +175,7 @@ a grid comparison of changing settings and their combinations, this could even b
 H
 make an input variable that is a ccmixter search url like this
 http://dig.ccmixter.org/search?searchp=instrumental
+get the html of the page, for example ("1 - 40 of 3,714") so the number of songs is 3714
 find out how many songs there are for the search url and use that number to make a new url like this
 http://dig.ccmixter.org/search?limit=3714&searchp=instrumental
 make a list of all song names from this new url
