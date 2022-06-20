@@ -2,12 +2,12 @@ bugs:
   average step times not working
     figure out why sometimes there are no stats being shown
 
+3D Color stuff:
+  test a long generation with color stuff to see if we can keep color
+
 get better at github with H so can have multiple branches going and merge smoothly
 
 integrate Hs github/ youtube stuff into main
-
-how can antarctic prompts happen with one TPU and multiple main programs?
-  a ranadom antarctic and is in the request image and resulting txt
 
 figure out what point we are at with OD and get it working with specific items
   predefined objects to zoom into
@@ -35,7 +35,6 @@ AP Eventually:
 OD Eventually:
   gpt3 can be used to combine object detected and current prompt into a new prompt
 
-
 3D for color:
   if zippy 3d color fx works well,
     get PD set up for 3d and move color fx stuff over
@@ -50,10 +49,14 @@ https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/
 
 OD and AP:
   if in loop and nothiing happens for long enough then they should stop themselves
+  how can antarctic prompts happen with one TPU and multiple main programs?
+    a ranadom antarctic and is in the request image and resulting txt
+
 
 AP:
   antarctic prompts special text file doesnt seem to fill up after first one
   in settings text antarctic prompts are not all there, it stopped after about 15 of them, dont know why
+    maybe this is fixed now by deleting the settings file automatically when a new one is created
 
 Interpolation:
   could be broken up into runs by using a wait system similar to OD and AP
@@ -72,6 +75,8 @@ OD
       number of frames to reach goal
       speed to head towards goal
       --------for both of these we probably want to pace it so that we reach both at the same time
+  maybe sometimes we pick a target based on how much it has to do with current or next prompt, not sure
+  maybe sometimes we use the label of the target to help create the next prompt with gpt3
 
 Settings expirements:
   play with cut_pow less 1.0
@@ -84,12 +89,16 @@ Live Interaction Stuff:
 
 New Animaiton mode:
   make cutn scheduling have new animation mode so it can be different from frame to frame
+  look into making models be done with the "new" system
 
 Misc:
   when i do a series of images in a batch, i should be able to get the seed of each one (when it is on random)
   figure out about finetunning and see if can fine tune on zippys and discord channels to make a helpful DD bot
   a way to load settings from settings file
     this should override the settings in the markdowns
+  possible to use new init images throughout the print? maybe something involving reverse or something to make it gradually go from one init to another through a prompt? not really thought out yet..
+  a way to make comparisons of two different changing settings or a control next to each other in one video. Ex: show two slideshows in the same video, in one of them sat_scale is changing, in the other one it is not, and everything else is the same.
+  a grid comparison of changing settings and their combinations, this could even be a 3d grid or a many dimension grid that is viewed by changing settings(between pre-defined, pre-printed settings) and seeing result in real time
 
 Maybe:
   put lots of optional stuff at the very top instead of having it literred all around
@@ -106,36 +115,11 @@ Meta:
   figure out a way to test code from in here
     maybe replace google drive with a local folder
 
+Research:
+  find out how many notebooks other people are running at same time in pro+
+  learn about skip_augs
 
 
-show any new setting that is being used there too
-  maybe just show all settings here
-
-when we to auto targeted zoom i think we need to have a ration between horizontal and vertical and maybe a speed based on
-  distance from center the target is (if we are trying to be able to get to any target location in the same number of frames)
-
-maybe sometimes we pick a target based on how much it has to do with current or next prompt, not sure
-
-maybe sometimes we use the label of the target to help create the next prompt with gpt3
-
-maybe consider moving other things out of main file(not sure, maybe best not to try having more than 2 notebooks running)
-
-find out how many notebooks other people are running at same time in pro+
-
-save average it/s to new text file save list of changing settings to text file
-  make sure this is happening
-
-remember to make everything show in settings
-
-learn about skip_augs
-
-look into making models be done with the "new" system
-
-possible to use new init images throughout the print? maybe something involving reverse or something to make it gradually go from one init to another through a prompt? not really thought out yet..
-
-a way to make comparisons of two different changing settings or a control next to each other in one video. Ex: show two slideshows in the same video, in one of them sat_scale is changing, in the other one it is not, and everything else is the same.
-
-a grid comparison of changing settings and their combinations, this could even be a 3d grid or a many dimension grid that is viewed by changing settings(between pre-defined, pre-printed settings) and seeing result in real time
 
 
 H
