@@ -9,6 +9,13 @@ integrate Hs github/ youtube stuff into this
 
 how can antarctic prompts happen with one TPU and multiple main programs?
 
+figure out what point we are at with OD and get it working with specific items
+  predefined
+  it asks what to zoom into while the print is happening
+    this could even be done without OD and with a click and drag
+
+some sort of random zoom in to a point thing
+
 an option to show prompt/s over image
   maybe on top of(with or without a background), maybe above or below image
   maybe show it with put text onto each original X image so that it zooms or moves with the animation
