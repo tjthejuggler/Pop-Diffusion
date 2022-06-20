@@ -16,6 +16,8 @@ figure out what point we are at with OD and get it working with specific items
 
 some sort of random zoom in to a point thing
 
+instead of preprompts/postprompts, just make additional prompts which is a list of prompts that also get used
+
 an option to show prompt/s over image
   maybe on top of(with or without a background), maybe above or below image
   maybe show it with put text onto each original X image so that it zooms or moves with the animation
@@ -168,3 +170,24 @@ possible to use new init images throughout the print? maybe something involving 
 a way to make comparisons of two different changing settings or a control next to each other in one video. Ex: show two slideshows in the same video, in one of them sat_scale is changing, in the other one it is not, and everything else is the same.
 
 a grid comparison of changing settings and their combinations, this could even be a 3d grid or a many dimension grid that is viewed by changing settings(between pre-defined, pre-printed settings) and seeing result in real time
+
+
+H
+make an input variable that is a ccmixter search url like this
+http://dig.ccmixter.org/search?searchp=instrumental
+find out how many songs there are for the search url and use that number to make a new url like this
+http://dig.ccmixter.org/search?limit=3714&searchp=instrumental
+make a list of all song names from this new url
+randomly choose a song name
+download the song
+make a 'credits' string that is the credits for that song
+
+make this downloaded song be the audio for the video
+create a description for the youtube video in this format
+
+Created by Pop Diffusion(https://github.com/tjthejuggler/Pop-Diffusion)
+a fork of Disco Diffusion(https://github.com/alembics/disco-diffusion)
+Settings:
+<gist>
+Music:
+<music credits>
