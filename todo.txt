@@ -19,6 +19,7 @@ some sort of random zoom in to a point thing without even using OD
   this could be done with a click and drag of a box over the image
 
 test:
+  test info and prompt videos without antarctic prompts
   antarctic TPU prints generated prompts
   see if additional antarctic prompts are being added
 
@@ -28,7 +29,12 @@ an option to show prompt/s over image
   in order to do prompt overlay on top of interpolated video we need to make the video ourself with
         the interpolation output images
 
-hook up another ai that determines category of antarctic phrases and choose artists/modifiers from list 
+AP Eventually:
+  hook up another ai that determines category of antarctic phrases and choose artists/modifiers from list 
+
+OD Eventually:
+  gpt3 can be used to combine object detected and current prompt into a new prompt
+
 
 3D for color:
   if zippy 3d color fx works well,
@@ -39,112 +45,68 @@ hook up another ai that determines category of antarctic phrases and choose arti
     crashes sometimes from memory error
     if it crashes and resumes then i lose all the antarctica prompts
 
-if we were to break our image into several parts and do image to text on each part and then ask another gpt ai 
-  which of thouse parts is the most interesting, then we could start zooming into that area by using a combination of 
-  translationx,y and zoom. or, if the whole image is the most interesting, then we could start zooming out. We could
-  just provide the ai with times to do this. maybe to match a song also provide some forced imagery too.
-
 try this without another machine running:
 https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/GPT-J-6B/Inference_with_GPT_J_6B.ipynb#scrollTo=9vnZfO1HGSS7
 
-Object Detection:
-  this should get all set up and then just wait around in a nested while loop
-    first loop never ends(maybe eventually it does with some sort of finish command)
-      second loop waits for an image to appear
-        when it appears the processing is done to it and it finds the object with the most % that is (under a certain size?)
-          a text file is written that gives info on the object that was found
-            center of object - with resizing taken into consideration
-            name of object?
-          we have a similar while loop over in pop-diffusion after an image is sent that waits for a response text
-            we then use that response text to set a sequence of translation/zoom
+OD and AP:
+  if in loop and nothiing happens for long enough then they should stop themselves
 
-  when given the coords of the center of the image we need to figure out how to programatically zoom into it
-  this OD redirection can happen at certain pre determined frames so it can go to music
+AP:
+  antarctic prompts special text file doesnt seem to fill up after first one
+  in settings text antarctic prompts are not all there, it stopped after about 15 of them, dont know why
 
-  once we get this wait/response thing worked out we should be able to use it to break up the interpolation issue
+Interpolation:
+  could be broken up into runs by using a wait system similar to OD and AP
 
 multiply prompts by absolute multiplier
+  special consideration must be given for antarctic prompts
 
-other info text file should keep track of total time in PD, time in Interpolation, Interpolation settings, GPU name
+Settings/Info files:
+  other info text file should keep track of total time in (AP, DO, Pop Diffusion, Interpolation) Interpolation settings, GPU name
+  info text file shuld also be in the gist or in a seperate gist
 
-this text file should also be automatically saved as a gist and go through the whole automatic youtube creation thing
+OD
+  make an info print of the object that is being zoomed in on (this means send it over from the TPU)
+  make a way for more settings to be input, number of frames to reach zoomed object, object to zoom in on if available
+    pick either:
+      number of frames to reach goal
+      speed to head towards goal
+      --------for both of these we probably want to pace it so that we reach both at the same time
 
-OBJECT Detection
-  make a way for TPU to turn itself off if it hasnt been used for an object in awhile
-make a print of the object that is being zoomed in on (this means send it over from the TPU)
-clean out todos
-delete coords text file after it is used
-make a way for more settings to be input, number of frames to reach zoomed object, object to zoom in on if available
+Settings expirements:
+  play with cut_pow less 1.0
+  try antarctic with just an init image and either skip all steps on first prompt or get it to make even the first prompt
+    so this way it is completely the ai deciding what to do
+
+Live Interaction Stuff:
+  a way to add prompts while generation is happening
+  a button to cancel current frame/image and delete it
+
+New Animaiton mode:
+  make cutn scheduling have new animation mode so it can be different from frame to frame
+
+Misc:
+  when i do a series of images in a batch, i should be able to get the seed of each one (when it is on random)
+  figure out about finetunning and see if can fine tune on zippys and discord channels to make a helpful DD bot
+  a way to load settings from settings file
+    this should override the settings in the markdowns
+
+Maybe:
+  put lots of optional stuff at the very top instead of having it literred all around
+  convert frame skip steps into steps
+    this can be a seperate input that goes below it and we can use one or the other. In fact, we can make a special print or something that gives us one if we give the other.
+  an estimated completion time would be cool, but probably difficult
+
+Unknown:
+  prompt "ramp" overwrite setting system:
+    combined with arctic this could be cool
+    (maybe this was just an early thought of the current AP system)
+
+Meta:
+  figure out a way to test code from in here
+    maybe replace google drive with a local folder
 
 
-Object_Detection zooming
-  get an image and the coords of the box im headed to
-  pick either:
-    number of frames to reach goal
-    speed to head towards goal
-    --------for both of these we probably want to pace it so that we reach both at the same time
-  figure required zoom based on image size and bounding box size
-    given relative dimensions, figure out if h or v will be the first to reach its bound
-      percent.py does this, but we probably want some sort of variation of it because it would take a long time,
-        we want to get to the center before the zoom is taking up the whole screen
-  figure number of hor pixels and vert pixels to get to both at the same time
-  Once we get this zooming worked out, we can make a temp image of the thing we are zooming into and send it to
-    antarctic prompts to get a description of it and change the prompt to that while it is zooming
-
-play with cut_pow less than one
-
-when i do a series of images in a batch, i should be able to get the seed of each one (when it is on random)
-
-a button to cancel current frame/image and delete it
-
-make cutn scheduling have new animation mode so it can be different from frame to frame
-
-there could be an object detection mode that always zooms to a certain thing, for example the prompt is a face
-  and the object detection target is an eye, so it keeps making faces and zooming into eyes
-
-figure out about finetunning and see if can fine tune on zippys and discord channels to make a helpful DD bot
-
-gpt3 can be used to combine object detected and current prompt into a new prompt
-
-maybe antarctic prompts can be outsourced to the same TPU that is doing object detection to try and save on gpu usage,
-   it could be done in a while loop that keeps checking two different folders for workloads
-
-
-a way to load settings from settings file
-  this would be instead of prompt presets
-
-test info and prompt videos without antarctic prompts
-
-try antarctic with just an init image and either skip all steps on first prompt or get it to make even the first prompt
-  so this way it is completely the ai deciding what to do
-
-put lots of optional stuff at the very top instead of having it literred all around
-
-interpolations should occasionally be saved and the whole thing should be in a loop so that if we get disconnected we can not lose images
-  this means we need to check our output folder when determining what frame to start from
-  maybe make a bunch of folders of non-interpolated images
-    once we have the first folder complete and exist, we move the contents of the interpolated folder over to a complete interpolation folder
-      then we start on the next batch
-      a possible issue with this is that it starts filling the interpolation folder before it finishes and can take a little time
-      another possible issue is naming issues, i don't know how it names interpolated images and if all these different folders wwill smoothly merge together
-
-prompt "ramp" overwrite setting system:
-  combined with arctic this could be cool
-
-figure out a way to test code from in here
-  maybe replace google drive with a local folder
-
-convert frame skip steps into steps
-  this can be a seperate input that goes below it and we can use one or the other. In fact, we can make a special print or something that gives us one if we give the other.
-
-an estimated completion time would be cool, but probably difficult
-
-info:
-  limit size of stats
-    reduce font size
-  make stats show in two columns?
-  show steps (the actual steps being used after skip steps was taken away)
-  find other settings that would be useful to see
 
 show any new setting that is being used there too
   maybe just show all settings here
