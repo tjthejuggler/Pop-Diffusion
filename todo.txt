@@ -1,22 +1,26 @@
 bugs:
   average step times not working
-
-make antarctic prompts show the prompts they make in the TPU program
+    figure out why sometimes there are no stats being shown
 
 get better at github with H so can have multiple branches going and merge smoothly
 
-integrate Hs github/ youtube stuff into this
+integrate Hs github/ youtube stuff into main
 
 how can antarctic prompts happen with one TPU and multiple main programs?
+  a ranadom antarctic and is in the request image and resulting txt
 
 figure out what point we are at with OD and get it working with specific items
-  predefined
-  it asks what to zoom into while the print is happening
-    this could even be done without OD and with a click and drag
+  predefined objects to zoom into
+  beyond:
+    it asks what to zoom into while the print is happening
+      this could even be done without OD and with a click and drag
 
-some sort of random zoom in to a point thing
+some sort of random zoom in to a point thing without even using OD
+  this could be done with a click and drag of a box over the image
 
-instead of preprompts/postprompts, just make additional prompts which is a list of prompts that also get used
+test:
+  antarctic TPU prints generated prompts
+  see if additional antarctic prompts are being added
 
 an option to show prompt/s over image
   maybe on top of(with or without a background), maybe above or below image
