@@ -142,3 +142,13 @@ Settings:
 <gist>
 Music:
 <music credits>
+
+H2
+instead of inputting a ccmixter url, input a ccmixter search word or url
+  check to see if input has 'http://dig.ccmixter.org' in it, if it does then use it as a url otherwise create the url based on the search in it
+get the id number of the song
+create the button to click
+get the credits
+download the song
+use the downloaded song instead of song.mp3
+run this whole thing in a colab
