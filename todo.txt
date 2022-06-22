@@ -50,16 +50,7 @@ OD and AP:
     a ranadom antarctic and is in the request image and resulting txt
 
 H:
-  make a stats dictionary, we will occasionally json dumps it to a file like we do the settings.txt file, give it these:
-    frame_lengths
-    average_frame_length
-    antarctic_request_lengths
-    average_antarctic_request_length
-    object_detection_lengths
-    average_object_detection_length
-   set up timers before/after antarctic prompts requests and add the times to the stats dictionary
-      do the same with object object_detection_lengths
-      do the same with interpolation time (before and after all interpolation cells)
+
 
 AP:
 
