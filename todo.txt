@@ -7,8 +7,6 @@ bugs:
 
 get better at github with H so can have multiple branches going and merge smoothly
 
-integrate Hs github/ youtube stuff into main
-
 figure out what point we are at with OD and get it working with specific items
   predefined objects to zoom into
   beyond:
@@ -20,8 +18,6 @@ some sort of random zoom in to a point thing without even using OD
 
 test:
   test info and prompt videos without antarctic prompts
-  antarctic TPU prints generated prompts
-  see if additional antarctic prompts are being added
 
 an option to show prompt/s over image
   maybe on top of(with or without a background), maybe above or below image
@@ -48,15 +44,27 @@ try this without another machine running:
 https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/GPT-J-6B/Inference_with_GPT_J_6B.ipynb#scrollTo=9vnZfO1HGSS7
 
 OD and AP:
-  if in loop and nothiing happens for long enough then they should stop themselves
+  if in loop and nothing happens for long enough then they should stop themselves
   how can antarctic prompts happen with one TPU and multiple main programs?
     a ranadom antarctic and is in the request image and resulting txt
 
+H:
+  antarctic_text_prompts.json is formatted poorly, that text file should be formatted well like the settings.txt file
+  in OD and AP TPU scripts, keep track of the last time work was actually done and if it has been more than a
+    certain amount of time(timeout_minutes) then then stop the program
+  make a stats dictionary, we will occasionally json dumps it to a file like we do the settings.txt file, give it these:
+    frame_lengths
+    average_frame_length
+    antarctic_request_lengths
+    average_antarctic_request_length
+    object_detection_lengths
+    average_object_detection_length
+    
+    
+    
+    set up timers before/after antarctic prompts requests and 
 
 AP:
-  antarctic prompts special text file doesnt seem to fill up after first one
-  in settings text antarctic prompts are not all there, it stopped after about 15 of them, dont know why
-    maybe this is fixed now by deleting the settings file automatically when a new one is created
 
 Interpolation:
   could be broken up into runs by using a wait system similar to OD and AP
