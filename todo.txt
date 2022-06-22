@@ -18,6 +18,7 @@ some sort of random zoom in to a point thing without even using OD
 
 test:
   test info and prompt videos without antarctic prompts
+  test new antarctic text promp formating 
 
 an option to show prompt/s over image
   maybe on top of(with or without a background), maybe above or below image
@@ -49,9 +50,6 @@ OD and AP:
     a ranadom antarctic and is in the request image and resulting txt
 
 H:
-  antarctic_text_prompts.json is formatted poorly, that text file should be formatted well like the settings.txt file
-  in OD and AP TPU scripts, keep track of the last time work was actually done and if it has been more than a
-    certain amount of time(timeout_minutes) then then stop the program
   make a stats dictionary, we will occasionally json dumps it to a file like we do the settings.txt file, give it these:
     frame_lengths
     average_frame_length
@@ -59,10 +57,7 @@ H:
     average_antarctic_request_length
     object_detection_lengths
     average_object_detection_length
-
-    
-    
-    set up timers before/after antarctic prompts requests and add the times to the stats dictionary
+   set up timers before/after antarctic prompts requests and add the times to the stats dictionary
       do the same with object object_detection_lengths
       do the same with interpolation time (before and after all interpolation cells)
 
