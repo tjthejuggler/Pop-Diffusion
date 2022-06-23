@@ -1,2 +1,4 @@
-p100, [768,512], 40 frames, 7 interp - worked
-p100, [768,512], 40 frames, 10 interp - failed
+p100, [768,512], 40 frames, 7 interp - success
+p100, [768,512], 40 frames, 8 interp - 
+p100, [768,512], 40 frames, 9 interp - fail
+p100, [768,512], 40 frames, 10 interp - fail

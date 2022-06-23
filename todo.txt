@@ -1,44 +1,65 @@
 bugs:
   figure out why sometimes there are no stats being shown
 
+make settings overwrite its own cell
+
+settings overwrite is making all the settings be strings. some settings need to be integers.
+  go through all the settings in overwrite and compare them to their markdown inputs, if they should be ints then
+    they need to be converted inside of the settings overwrite conditional
+  there may also be this same issue with ones that are supposed to be lists
+    ive seen no evidence of this yet, it needs to be checked
+
 at the beginning, when we make the stats dict if there is a stats.txt then when we should fill it from there, not make it empty
 
 hatice settings should be removed and put in their appropriate cells as inputs
+  there are notes next to each of them for what to do with them
 
-all created video files should be named with the batch name / num
+all created video files should be named with the batch name / num (see interp or normal videos as examples)
 
 if an mp3 already exists, then dont download another one
 
 if a gist already exists, then dont create another one
 
-format new section headers like the old ones and number them
+print the video description to a text file
 
-add object detection and antarctic prompt settings to settings.txt and the settings overwrite
-
-make settings overwrite its own funciton
-
-make a ccmixter 'never again' mp3 list and check for it when getting music, if we get one in the list then loop 
-  back and get another one
-
-a way to make specific settings go over the settings overwrite settings
+take gist / github username as a variable, not hardcoded
+  in 'create gist' cell
 
 add gpu to stats
 
-make instructions on getting youtube jsons set up
+format new section headers like the old ones and number all sections
+  (some stuff can be grouped, for instance interpolation has sever cells so it can be #.1, #.2, #.3, etc)
 
-settings overwrite prompts only got first prompt for some reason
+add object detection and antarctic prompt settings to settings.txt and the settings overwrite
+  this can also be done for interpolation and other video creation settings, but needs some consideration
+    i think we may want to look at this settings file at different places to use it to overwrite settings in different sections
+      make the setting.txt overwrite input be at the beginning of the whole files
+      we can also override models this way
+
+make a ccmixter 'never again' mp3 list and check for it when getting music, if we get one in the list then loop 
+  back and get another one
+  -this should be in github AI/Pop_Diffusion/ccmixter_never_again_mp3_list.txt
+  -take the url from the music credits (ex: http://dig.ccmixter.org/files/speck/52473) and put it into a list in the txt file
+  -when getting a random mp3, check the list and if it is in the list, then get another one
+
+a way to make specific settings go over the settings overwrite settings
+
+make instructions on getting youtube jsons set up
 
 maybe overwrite settings should somehow go at the beginning of the programs
 would be nice to get absolutely everything put into settings and thus into overwrite settings
 
-some way to keep an automatic list of failed/successful interpolation settings. it can 
-give a warning if an interpolation is attempted with settings higher in every way than a known failed interp
-  frame size
-  num of frames
-  interpolation number
-  gpu used
+at the end of Setup Interpolation cell, compare interpolations to ..AI/Pop_Diffusion/interpolation_observations.txt to see
+  if we can tell if the interpolation will fail for sure:
+  if we have any failed interpolations with:
+    the same gpu
+    higher/equal frame dimensions, number of frames, interpolation number
+  then we can say pretty much for sure it is going to fail. (although maybe we also have to take into account if another print is currently running)
+
 
 clear space in gdrives
+
+In settings overwrite there should be an option to use the same antarctic prompts again
 
 3D Color stuff:
   test a long generation with color stuff to see if we can keep color
