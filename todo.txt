@@ -22,6 +22,15 @@ make a ccmixter 'never again' mp3 list and check for it when getting music, if w
 
 a way to make specific settings go over the settings overwrite settings
 
+add gpu to stats
+
+make instructions on getting youtube jsons set up
+
+settings overwrite prompts only got first prompt for some reason
+
+maybe overwrite settings should somehow go at the beginning of the programs
+would be nice to get absolutely everything put into settings and thus into overwrite settings
+
 some way to keep an automatic list of failed/successful interpolation settings. it can 
 give a warning if an interpolation is attempted with settings higher in every way than a known failed interp
   frame size

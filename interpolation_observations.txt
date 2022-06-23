@@ -1,0 +1,2 @@
+p100, [768,512], 40 frames, 7 interp - worked
+p100, [768,512], 40 frames, 10 interp - failed
