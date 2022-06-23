@@ -2,7 +2,8 @@ bugs:
   figure out why sometimes there are no stats being shown
 
 make settings overwrite its own cell
-
+note!!!
+  probably not a problem
 settings overwrite is making all the settings be strings. some settings need to be integers.
   go through all the settings in overwrite and compare them to their markdown inputs, if they should be ints then
     they need to be converted inside of the settings overwrite conditional
