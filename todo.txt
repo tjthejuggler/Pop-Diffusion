@@ -1,11 +1,40 @@
 bugs:
-  average step times not working
-    figure out why sometimes there are no stats being shown
+  figure out why sometimes there are no stats being shown
+
+at the beginning, when we make the stats dict if there is a stats.txt then when we should fill it from there, not make it empty
+
+hatice settings should be removed and put in their appropriate cells as inputs
+
+all created video files should be named with the batch name / num
+
+if an mp3 already exists, then dont download another one
+
+if a gist already exists, then dont create another one
+
+format new section headers like the old ones and number them
+
+add object detection and antarctic prompt settings to settings.txt and the settings overwrite
+
+make settings overwrite its own funciton
+
+make a ccmixter 'never again' mp3 list and check for it when getting music, if we get one in the list then loop 
+  back and get another one
+
+a way to make specific settings go over the settings overwrite settings
+
+some way to keep an automatic list of failed/successful interpolation settings. it can 
+give a warning if an interpolation is attempted with settings higher in every way than a known failed interp
+  frame size
+  num of frames
+  interpolation number
+  gpu used
+
 
 3D Color stuff:
   test a long generation with color stuff to see if we can keep color
 
-get better at github with H so can have multiple branches going and merge smoothly
+use the code here to get make and get boxes that can be zoomed into 
+  https://hub-binder.mybinder.ovh/user/gereleth-jupyter-bbox-widget-fhggio0w/notebooks/examples/introduction.ipynb
 
 figure out what point we are at with OD and get it working with specific items
   predefined objects to zoom into
