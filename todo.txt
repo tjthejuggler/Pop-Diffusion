@@ -38,6 +38,7 @@ give a warning if an interpolation is attempted with settings higher in every wa
   interpolation number
   gpu used
 
+clear space in gdrives
 
 3D Color stuff:
   test a long generation with color stuff to see if we can keep color
