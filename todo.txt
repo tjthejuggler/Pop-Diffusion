@@ -1,20 +1,6 @@
 bugs:
   figure out why sometimes there are no stats being shown
 
-make a function that gets unique prompt words from sample_text_prompt_dict:
-  combine each text_prompts value into a single string seperated by spaces
-  make a new dict with the same keys, but just a single string for each value (the string made in the previous step)
-  remove all punctuation from the values
-  get all the words that every string has in common
-  remove these common words from the value strings
-  the final dictionary should just have the words that are unique to each value
-  the function that does this should be hooked up to 'get_unique_text_prompts()' in the 'make the video' cell
-
-make a multiple choice in interpolation for which video to use
-  basic video(current)
-  prompt video
-  unique prompt video
-
 settings overwrite is making all the settings be strings. some settings need to be integers.
   go through all the settings in overwrite and compare them to their markdown inputs, if they should be ints then
     they need to be converted inside of the settings overwrite conditional
@@ -35,6 +21,12 @@ if a gist is already made, but then we rerun the the post_difuse stuff again, it
 
 add the part that is different in each prompt as text to the frames before interpolation happens
   this is for the morph interp artist videos
+
+when writing prompts on videos,
+  convert from cv2 to PIL,
+  add text(so unicode characters can be used),
+  and convert back to cv2 (maybe there is no need to convert back if it is saving the images as we need them)
+  make params for size and color
 
 print the youtube description to a text file
 
