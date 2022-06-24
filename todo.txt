@@ -4,6 +4,10 @@ bugs:
 tj: 
   does settings overwrite work for items that are lists?
 
+option to show first prompt in youtube description
+  maybe eventually put in the changing aspect of prompt
+  maybe make it a function that takes in the prompt and the itemmaybe just blanks, or something like 1-100 or w/e
+
 print the youtube description to a text file
 
 take gist / github username as a variable, not hardcoded
