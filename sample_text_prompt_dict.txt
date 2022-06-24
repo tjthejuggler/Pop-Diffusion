@@ -1,0 +1,303 @@
+
+text_prompts = {
+    "0": [
+        "Beautiful detailed portrait of a stunning princess by Andrey Lekarski, Edgar Degas, Android Jones, Symmetrical composition with people centered, trending on artstation, colorized:4",
+        "text:-2",
+        "glasses:-1",
+        "color:1"
+    ],
+    "1": [
+        "Beautiful detailed portrait of a stunning princess by Jeff Easley, Simon Bisley, Bob Ringwood, Symmetrical composition with people centered, trending on artstation, colorized:4",
+        "text:-2",
+        "glasses:-1",
+        "color:1"
+    ],
+    "2": [
+        "Beautiful detailed portrait of a stunning princess by Sandro Botticelli, John Martin, Giovanni Battista Gaulli, Symmetrical composition with people centered, trending on artstation, colorized:4",
+        "text:-2",
+        "glasses:-1",
+        "color:1"
+    ],
+    "3": [
+        "Beautiful detailed portrait of a stunning princess by Greg Hildebrandt, Tim Burton, Frank Frazetta, Symmetrical composition with people centered, trending on artstation, colorized:4",
+        "text:-2",
+        "glasses:-1",
+        "color:1"
+    ],
+    "4": [
+        "Beautiful detailed portrait of a stunning princess by Seb McKinnon, Diego Rivera, John Bauer, Symmetrical composition with people centered, trending on artstation, colorized:4",
+        "text:-2",
+        "glasses:-1",
+        "color:1"
+    ],
+    "5": [
+        "Beautiful detailed portrait of a stunning princess by Kelly Freas, Greg Rutkowski, Josan Gonzalez, Symmetrical composition with people centered, trending on artstation, colorized:4",
+        "text:-2",
+        "glasses:-1",
+        "color:1"
+    ],
+    "6": [
+        "Beautiful detailed portrait of a stunning princess by Simon Bisley, Gustave Doré, Canaletto, Symmetrical composition with people centered, trending on artstation, colorized:4",
+        "text:-2",
+        "glasses:-1",
+        "color:1"
+    ],
+    "7": [
+        "Beautiful detailed portrait of a stunning princess by Neil Welliver, Denis Peterson, Victor Adame Minguez, Symmetrical composition with people centered, trending on artstation, colorized:4",
+        "text:-2",
+        "glasses:-1",
+        "color:1"
+    ],
+    "8": [
+        "Beautiful detailed portrait of a stunning princess by Ted Nasmith, Keith Haring, George Inness, Symmetrical composition with people centered, trending on artstation, colorized:4",
+        "text:-2",
+        "glasses:-1",
+        "color:1"
+    ],
+    "9": [
+        "Beautiful detailed portrait of a stunning princess by Jakub Rozalski, Filippino Lippi, Victoria Francés, Symmetrical composition with people centered, trending on artstation, colorized:4",
+        "text:-2",
+        "glasses:-1",
+        "color:1"
+    ],
+    "10": [
+        "Beautiful detailed portrait of a stunning princess by Hubert Robert, Joe Jusko, Luiz Escanuela, Symmetrical composition with people centered, trending on artstation, colorized:4",
+        "text:-2",
+        "glasses:-1",
+        "color:1"
+    ],
+    "11": [
+        "Beautiful detailed portrait of a stunning princess by Craig Mullins, Geof Darrow, Eddie Mendoza, Symmetrical composition with people centered, trending on artstation, colorized:4",
+        "text:-2",
+        "glasses:-1",
+        "color:1"
+    ],
+    "12": [
+        "Beautiful detailed portrait of a stunning princess by Seb McKinnon, Yuumei, Jarosław Jaśnikowski, Symmetrical composition with people centered, trending on artstation, colorized:4",
+        "text:-2",
+        "glasses:-1",
+        "color:1"
+    ],
+    "13": [
+        "Beautiful detailed portrait of a stunning princess by Allyssa Monks, Camille Corot, Gottfried Helnwein, Symmetrical composition with people centered, trending on artstation, colorized:4",
+        "text:-2",
+        "glasses:-1",
+        "color:1"
+    ],
+    "14": [
+        "Beautiful detailed portrait of a stunning princess by Gustav Klimt, Tim Hildebrandt, Canaletto, Symmetrical composition with people centered, trending on artstation, colorized:4",
+        "text:-2",
+        "glasses:-1",
+        "color:1"
+    ],
+    "15": [
+        "Beautiful detailed portrait of a stunning princess by Evelyn De Morgan, Eugeniusz Zak, Nicholas Roerich, Symmetrical composition with people centered, trending on artstation, colorized:4",
+        "text:-2",
+        "glasses:-1",
+        "color:1"
+    ],
+    "16": [
+        "Beautiful detailed portrait of a stunning princess by Luiz Escanuela, Emma Geary, Nicholas Roerich, Symmetrical composition with people centered, trending on artstation, colorized:4",
+        "text:-2",
+        "glasses:-1",
+        "color:1"
+    ],
+    "17": [
+        "Beautiful detailed portrait of a stunning princess by Bastien Lecouffe-Deharme, Hubert Robert, Allyssa Monks, Symmetrical composition with people centered, trending on artstation, colorized:4",
+        "text:-2",
+        "glasses:-1",
+        "color:1"
+    ],
+    "18": [
+        "Beautiful detailed portrait of a stunning princess by Moebius, Paul Cézanne, Kelly Freas, Symmetrical composition with people centered, trending on artstation, colorized:4",
+        "text:-2",
+        "glasses:-1",
+        "color:1"
+    ],
+    "19": [
+        "Beautiful detailed portrait of a stunning princess by Pascal Blanché, Geof Darrow, Anton Otto Fischer, Symmetrical composition with people centered, trending on artstation, colorized:4",
+        "text:-2",
+        "glasses:-1",
+        "color:1"
+    ],
+    "20": [
+        "Beautiful detailed portrait of a stunning princess by Coby Whitmore, Tom Lovell, Frank Frazetta, Symmetrical composition with people centered, trending on artstation, colorized:4",
+        "text:-2",
+        "glasses:-1",
+        "color:1"
+    ],
+    "21": [
+        "Beautiful detailed portrait of a stunning princess by Leonardo da Vinci, Luiz Escanuela, Hubert Robert, Symmetrical composition with people centered, trending on artstation, colorized:4",
+        "text:-2",
+        "glasses:-1",
+        "color:1"
+    ],
+    "22": [
+        "Beautiful detailed portrait of a stunning princess by Amy Brown, Cicely Mary Barker, Nele Zirnite, Symmetrical composition with people centered, trending on artstation, colorized:4",
+        "text:-2",
+        "glasses:-1",
+        "color:1"
+    ],
+    "23": [
+        "Beautiful detailed portrait of a stunning princess by Frank Miller, Julie Bell, Android Jones, Symmetrical composition with people centered, trending on artstation, colorized:4",
+        "text:-2",
+        "glasses:-1",
+        "color:1"
+    ],
+    "24": [
+        "Beautiful detailed portrait of a stunning princess by Pascal Blanche, Alex Grey, Chris Moore, Symmetrical composition with people centered, trending on artstation, colorized:4",
+        "text:-2",
+        "glasses:-1",
+        "color:1"
+    ],
+    "25": [
+        "Beautiful detailed portrait of a stunning princess by Ted Nasmith, Hubert Robert, John Bauer, Symmetrical composition with people centered, trending on artstation, colorized:4",
+        "text:-2",
+        "glasses:-1",
+        "color:1"
+    ],
+    "26": [
+        "Beautiful detailed portrait of a stunning princess by Jarosław Jaśnikowski, Liam Wong, Canaletto, Symmetrical composition with people centered, trending on artstation, colorized:4",
+        "text:-2",
+        "glasses:-1",
+        "color:1"
+    ],
+    "27": [
+        "Beautiful detailed portrait of a stunning princess by Hubert Robert, RHADS, Eugene Delacroix, Symmetrical composition with people centered, trending on artstation, colorized:4",
+        "text:-2",
+        "glasses:-1",
+        "color:1"
+    ],
+    "28": [
+        "Beautiful detailed portrait of a stunning princess by Jules Dupré, Ernst Fuchs, Ian Hornak, Symmetrical composition with people centered, trending on artstation, colorized:4",
+        "text:-2",
+        "glasses:-1",
+        "color:1"
+    ],
+    "29": [
+        "Beautiful detailed portrait of a stunning princess by Gustave Doré, Android Jones, Pieter Bruegel the Elder, Symmetrical composition with people centered, trending on artstation, colorized:4",
+        "text:-2",
+        "glasses:-1",
+        "color:1"
+    ],
+    "30": [
+        "Beautiful detailed portrait of a stunning princess by Stephanie Law, Clyde Caldwell, Kareem Olamilekan, Symmetrical composition with people centered, trending on artstation, colorized:4",
+        "text:-2",
+        "glasses:-1",
+        "color:1"
+    ],
+    "31": [
+        "Beautiful detailed portrait of a stunning princess by Dragan Malešević Tapi, Amir Zand, Jesper Ejsing, Symmetrical composition with people centered, trending on artstation, colorized:4",
+        "text:-2",
+        "glasses:-1",
+        "color:1"
+    ],
+    "32": [
+        "Beautiful detailed portrait of a stunning princess by Antoni Taulé, Zack Snyder, Otto Duecker, Symmetrical composition with people centered, trending on artstation, colorized:4",
+        "text:-2",
+        "glasses:-1",
+        "color:1"
+    ],
+    "33": [
+        "Beautiful detailed portrait of a stunning princess by Simon Hennessey, Diego Velázquez, Child Hassam, Symmetrical composition with people centered, trending on artstation, colorized:4",
+        "text:-2",
+        "glasses:-1",
+        "color:1"
+    ],
+    "34": [
+        "Beautiful detailed portrait of a stunning princess by George Inness, Bastien Lecouffe-Deharme, Robert McCall, Symmetrical composition with people centered, trending on artstation, colorized:4",
+        "text:-2",
+        "glasses:-1",
+        "color:1"
+    ],
+    "35": [
+        "Beautiful detailed portrait of a stunning princess by Max Ernst, Daniel Merriam, John Martin, Symmetrical composition with people centered, trending on artstation, colorized:4",
+        "text:-2",
+        "glasses:-1",
+        "color:1"
+    ],
+    "36": [
+        "Beautiful detailed portrait of a stunning princess by Clyde Caldwell, Kazimir Malevich, Ivan Shishkin, Symmetrical composition with people centered, trending on artstation, colorized:4",
+        "text:-2",
+        "glasses:-1",
+        "color:1"
+    ],
+    "37": [
+        "Beautiful detailed portrait of a stunning princess by Warwick Goble, Brothers Hildebrandt, István Sándorfi, Symmetrical composition with people centered, trending on artstation, colorized:4",
+        "text:-2",
+        "glasses:-1",
+        "color:1"
+    ],
+    "38": [
+        "Beautiful detailed portrait of a stunning princess by Pablo Amaringo, Rene Magritte, Pascal Blanché, Symmetrical composition with people centered, trending on artstation, colorized:4",
+        "text:-2",
+        "glasses:-1",
+        "color:1"
+    ],
+    "39": [
+        "Beautiful detailed portrait of a stunning princess by William Blake, Rebecca Guay, Gottfried Helnwein, Symmetrical composition with people centered, trending on artstation, colorized:4",
+        "text:-2",
+        "glasses:-1",
+        "color:1"
+    ],
+    "40": [
+        "Beautiful detailed portrait of a stunning princess by Dirk Dzimirsky, Kelly Freas, Pieter Bruegel the Elder, Symmetrical composition with people centered, trending on artstation, colorized:4",
+        "text:-2",
+        "glasses:-1",
+        "color:1"
+    ],
+    "41": [
+        "Beautiful detailed portrait of a stunning princess by Paul Delvaux, William-Adolphe Bouguereau, Pablo Dominguez, Symmetrical composition with people centered, trending on artstation, colorized:4",
+        "text:-2",
+        "glasses:-1",
+        "color:1"
+    ],
+    "42": [
+        "Beautiful detailed portrait of a stunning princess by István Sándorfi, Gustavo Silva Nuez, Max Ernst, Symmetrical composition with people centered, trending on artstation, colorized:4",
+        "text:-2",
+        "glasses:-1",
+        "color:1"
+    ],
+    "43": [
+        "Beautiful detailed portrait of a stunning princess by Peter Max, Pablo Dominguez, Eddie Mendoza, Symmetrical composition with people centered, trending on artstation, colorized:4",
+        "text:-2",
+        "glasses:-1",
+        "color:1"
+    ],
+    "44": [
+        "Beautiful detailed portrait of a stunning princess by Andrey Lekarski, Victor Adame Minguez, Eleanor Vere Boyle, Symmetrical composition with people centered, trending on artstation, colorized:4",
+        "text:-2",
+        "glasses:-1",
+        "color:1"
+    ],
+    "45": [
+        "Beautiful detailed portrait of a stunning princess by Leonardo da Vinci, Eugeniusz Zak, Sandro Botticelli, Symmetrical composition with people centered, trending on artstation, colorized:4",
+        "text:-2",
+        "glasses:-1",
+        "color:1"
+    ],
+    "46": [
+        "Beautiful detailed portrait of a stunning princess by Bob Ringwood, Art Fitzpatrick, Kati Horna, Symmetrical composition with people centered, trending on artstation, colorized:4",
+        "text:-2",
+        "glasses:-1",
+        "color:1"
+    ],
+    "47": [
+        "Beautiful detailed portrait of a stunning princess by Liam Wong, Kareem Olamilekan, Jeff Easley, Symmetrical composition with people centered, trending on artstation, colorized:4",
+        "text:-2",
+        "glasses:-1",
+        "color:1"
+    ],
+    "48": [
+        "Beautiful detailed portrait of a stunning princess by Amir Zand, Richard Dadd, Rudolf Hausner, Symmetrical composition with people centered, trending on artstation, colorized:4",
+        "text:-2",
+        "glasses:-1",
+        "color:1"
+    ],
+    "49": [
+        "Beautiful detailed portrait of a stunning princess by Caravaggio, Eugeniusz Zak, Gustave Doré, Symmetrical composition with people centered, trending on artstation, colorized:4",
+        "text:-2",
+        "glasses:-1",
+        "color:1"
+    ]
+}

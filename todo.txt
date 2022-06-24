@@ -1,6 +1,15 @@
 bugs:
   figure out why sometimes there are no stats being shown
 
+make a function that gets unique prompt words from sample_text_prompt_dict:
+  combine each text_prompts value into a single string seperated by spaces
+  make a new dict with the same keys, but just a single string for each value (the string made in the previous step)
+  remove all punctuation from the values
+  get all the words that every string has in common
+  remove these common words from the value strings
+  the final dictionary should just have the words that are unique to each value
+  the function that does this should be hooked up to 'get_unique_text_prompts()' in the 'make the video' cell
+
 settings overwrite is making all the settings be strings. some settings need to be integers.
   go through all the settings in overwrite and compare them to their markdown inputs, if they should be ints then
     they need to be converted inside of the settings overwrite conditional
@@ -10,7 +19,9 @@ settings overwrite is making all the settings be strings. some settings need to 
 all created video files should be named with the batch name / num (see interp or normal videos as examples)
   maybe this is done now
 
-if an mp3 already exists, then dont download another one
+if an mp3 already exists in a batch folder, then dont download another one, have the credits in a file
+  make a SONGNAME_credits.txt that gets the songs credits in it
+  if we are going to get a song and a song already exists, then instead use the existing song and set credits from txt file
 
 if a gist is already made, but then we rerun the the post_difuse stuff again, it makes another gist
   we need some way to check to see if a gist has already been made
