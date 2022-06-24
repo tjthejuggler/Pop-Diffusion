@@ -10,7 +10,7 @@ settings overwrite is making all the settings be strings. some settings need to 
   there may also be this same issue with ones that are supposed to be lists
     ive seen no evidence of this yet, it needs to be checked
 
-at the beginning, when we make the stats dict if there is a stats.txt then when we should fill it from there, not make it empty
+
 
 hatice settings should be removed and put in their appropriate cells as inputs
   there are notes next to each of them for what to do with them
