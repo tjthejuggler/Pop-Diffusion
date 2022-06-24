@@ -1,4 +1,7 @@
-p100, [768,512], 40 frames, 7 interp - success
-p100, [768,512], 40 frames, 8 interp - 
-p100, [768,512], 40 frames, 9 interp - fail
-p100, [768,512], 40 frames, 10 interp - fail
+{
+"gpu" = "p100", "width" = 768, "height" = 512, "frames" = 40, "interp_num" = 10, status = fail
+"gpu" = "p100", "width" = 768, "height" = 512, "frames" = 40, "interp_num" = 9, status = fail
+"gpu" = "v100", "width" = 768, "height" = 512, "frames" = 150, "interp_num" = 7, status = success
+"gpu" = "v100", "width" = 768, "height" = 512, "frames" = 150, "interp_num" = 6, status = fail
+"gpu" = "v100", "width" = 768, "height" = 512, "frames" = 150, "interp_num" = 5, status = success
+}
