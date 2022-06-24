@@ -1,14 +1,21 @@
 bugs:
   figure out why sometimes there are no stats being shown
 
+
+make settings overwrite its own cell
+note!!!
+  probably not a problem
+
 settings overwrite is making all the settings be strings. some settings need to be integers.
   go through all the settings in overwrite and compare them to their markdown inputs, if they should be ints then
     they need to be converted inside of the settings overwrite conditional
   there may also be this same issue with ones that are supposed to be lists
     ive seen no evidence of this yet, it needs to be checked
 
+
 all created video files should be named with the batch name / num (see interp or normal videos as examples)
   maybe this is done now
+
 
 if an mp3 already exists in a batch folder, then dont download another one, have the credits in a file
   make a SONGNAME_credits.txt that gets the songs credits in it
