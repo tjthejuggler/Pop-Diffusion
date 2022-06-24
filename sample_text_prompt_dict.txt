@@ -1,5 +1,5 @@
 
-text_prompts = {
+{
     "0": [
         "Beautiful detailed portrait of a stunning princess by Andrey Lekarski, Edgar Degas, Android Jones, Symmetrical composition with people centered, trending on artstation, colorized:4",
         "text:-2",

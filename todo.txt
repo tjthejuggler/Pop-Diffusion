@@ -10,6 +10,11 @@ make a function that gets unique prompt words from sample_text_prompt_dict:
   the final dictionary should just have the words that are unique to each value
   the function that does this should be hooked up to 'get_unique_text_prompts()' in the 'make the video' cell
 
+make a multiple choice in interpolation for which video to use
+  basic video(current)
+  prompt video
+  unique prompt video
+
 settings overwrite is making all the settings be strings. some settings need to be integers.
   go through all the settings in overwrite and compare them to their markdown inputs, if they should be ints then
     they need to be converted inside of the settings overwrite conditional
