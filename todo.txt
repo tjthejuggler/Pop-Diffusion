@@ -12,7 +12,13 @@ all created video files should be named with the batch name / num (see interp or
 
 if an mp3 already exists, then dont download another one
 
-if a gist already exists, then dont create another one
+if a gist is already made, but then we rerun the the post_difuse stuff again, it makes another gist
+  we need some way to check to see if a gist has already been made
+  can we find a gist by name? if not then,
+    we could make a gist_url.txt and put the url in there and before making a gist check to see if that file exists
+
+add the part that is different in each prompt as text to the frames before interpolation happens
+  this is for the morph interp artist videos
 
 print the youtube description to a text file
 
@@ -22,7 +28,22 @@ take gist / github username as a variable, not hardcoded
 
 add gpu name to stats
 
+add FILM interpolation link to youtube description
+
+after finished_video is made, delete speed changed videos
+
+finished_video should have the folder and batch name / number in its name like the other videos
+
+only show antarctic prompts in settings.txt if they are actually used
+  right now if thery are not used then it just shows all the text_prompts again
+
+when an interpolation is attempted, add its interpolation data to interpolation_observations.txt with status = failed
+  make another cell after it that is "update interpolation observations"
+    this cell changes the most recent interpolation observation to 'status = success' if all settings are the same as
+      what are currently in the program
+
 settings should have every setting from defuse and before
+  settings in settings.txt should be in the order that they appear in the program
   just go down through the program and find any markdown that isn't in there and add it to settings
   settings overwrite input should be at the very beginning
   do the overwrite in several different places
