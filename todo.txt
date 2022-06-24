@@ -71,7 +71,8 @@ a way to make specific settings go over the settings overwrite settings
 
 make instructions on getting youtube jsons set up
 
-
+can dynamically morph from x to y using weights in for loops
+  example: adorable: 10, creep: -10 ----> adorable: -10, creep: 10
 
 
 at the end of Setup Interpolation cell, compare interpolations to ..AI/Pop_Diffusion/interpolation_observations.txt to see
