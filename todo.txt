@@ -1,21 +1,26 @@
 bugs:
   figure out why sometimes there are no stats being shown
 
+tj: 
+  does settings overwrite work for items that are lists?
 
-make settings overwrite its own cell
-note!!!
-  probably not a problem
+print the youtube description to a text file
 
-settings overwrite is making all the settings be strings. some settings need to be integers.
-  go through all the settings in overwrite and compare them to their markdown inputs, if they should be ints then
-    they need to be converted inside of the settings overwrite conditional
-  there may also be this same issue with ones that are supposed to be lists
-    ive seen no evidence of this yet, it needs to be checked
+take gist / github username as a variable, not hardcoded
+  in 'create gist' cell make a param
+  stick the param input into the place in gist where the username is
 
+add FILM interpolation link to youtube description
 
 all created video files should be named with the batch name / num (see interp or normal videos as examples)
-  maybe this is done now
+  finished_video should have the folder and batch name / number in its name like the other videos
 
+after finished_video is made, delete speed changed videos
+
+only show antarctic prompts in settings.txt if they are actually used
+  right now if thery are not used then it just shows all the text_prompts again
+
+add gpu name to stats
 
 if an mp3 already exists in a batch folder, then dont download another one, have the credits in a file
   make a SONGNAME_credits.txt that gets the songs credits in it
@@ -26,31 +31,11 @@ if a gist is already made, but then we rerun the the post_difuse stuff again, it
   can we find a gist by name? if not then,
     we could make a gist_url.txt and put the url in there and before making a gist check to see if that file exists
 
-add the part that is different in each prompt as text to the frames before interpolation happens
-  this is for the morph interp artist videos
-
-when writing prompts on videos,
+when writing prompts/unique prompts on videos,
   convert from cv2 to PIL,
   add text(so unicode characters can be used),
   and convert back to cv2 (maybe there is no need to convert back if it is saving the images as we need them)
   make params for size and color
-
-print the youtube description to a text file
-
-take gist / github username as a variable, not hardcoded
-  in 'create gist' cell make a param
-  stick the param input into the place in gist where the username is
-
-add gpu name to stats
-
-add FILM interpolation link to youtube description
-
-after finished_video is made, delete speed changed videos
-
-finished_video should have the folder and batch name / number in its name like the other videos
-
-only show antarctic prompts in settings.txt if they are actually used
-  right now if thery are not used then it just shows all the text_prompts again
 
 when an interpolation is attempted, add its interpolation data to interpolation_observations.txt with status = failed
   make another cell after it that is "update interpolation observations"
