@@ -74,6 +74,10 @@ make instructions on getting youtube jsons set up
 can dynamically morph from x to y using weights in for loops
   example: adorable: 10, creep: -10 ----> adorable: -10, creep: 10
 
+dynamic way to fade through random artists to keep the fade smooth
+  example: by 0:a,b,c ; 1:b,c,d ; 2:c,d,e... always just one artists coming and one going
+
+built-in text remover checkbox that automatically adds a -text/words/signature/autograph prompt
 
 at the end of Setup Interpolation cell, compare interpolations to ..AI/Pop_Diffusion/interpolation_observations.txt to see
   if we can tell if the interpolation will fail for sure:
@@ -134,7 +138,8 @@ OD and AP:
   how can antarctic prompts happen with one TPU and multiple main programs?
     a ranadom antarctic and is in the request image and resulting txt
 
-H:
+Controlled zoom
+  
 
 
 AP:
