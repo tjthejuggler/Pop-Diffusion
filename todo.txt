@@ -69,6 +69,8 @@ make a ccmixter 'never again' mp3 list and check for it when getting music, if w
 
 a way to make specific settings go over the settings overwrite settings
 
+CHECK TO SEE IF BAD FILE LOCATIONS GOT BACK INTO THE POST DIFUSE STUFF
+
 make instructions on getting youtube jsons set up
 
 can dynamically morph from x to y using weights in for loops
