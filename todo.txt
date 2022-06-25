@@ -1,34 +1,18 @@
 bugs:
   figure out why sometimes there are no stats being shown
-
+testing:
 tj: 
   does settings overwrite work for items that are lists?
-
-option to show first prompt in youtube description
+we have option to show first prompt in youtube description
   maybe eventually put in the changing aspect of prompt
-  maybe make it a function that takes in the prompt and the itemmaybe just blanks, or something like 1-100 or w/e
+  maybe make it a function that takes in the prompt and the it maybe just blanks, or something like 1-100 or w/e
 
-print the youtube description to a text file
 
-take gist / github username as a variable, not hardcoded
-  in 'create gist' cell make a param
-  stick the param input into the place in gist where the username is
 
-add FILM interpolation link to youtube description
-
-all created video files should be named with the batch name / num (see interp or normal videos as examples)
-  finished_video should have the folder and batch name / number in its name like the other videos
-
-after finished_video is made, delete speed changed videos
-
-only show antarctic prompts in settings.txt if they are actually used
-  right now if thery are not used then it just shows all the text_prompts again
-
-add gpu name to stats
-
-if an mp3 already exists in a batch folder, then dont download another one, have the credits in a file
+if an mp3 already exists in a frame dir folder, then dont download another one, have the credits in a file
   make a SONGNAME_credits.txt that gets the songs credits in it
-  if we are going to get a song and a song already exists, then instead use the existing song and set credits from txt file
+  if we are going to get a song and a song already exists, then instead use the existing
+   song and set credits from txt file
 
 if a gist is already made, but then we rerun the the post_difuse stuff again, it makes another gist
   we need some way to check to see if a gist has already been made
@@ -57,9 +41,6 @@ settings should have every setting from defuse and before
 a seperate post_diffuse_settings.txt should be made as well that gets created after the final cell
   the input for its overwrite it should be right after the diffuse cell
   every param after diffuse goes into the settings
-
-format new section headers like the old ones and number all sections
-  (some stuff can be grouped, for instance interpolation has sever cells so it can be #.1, #.2, #.3, etc)
 
 make a ccmixter 'never again' mp3 list and check for it when getting music, if we get one in the list then loop 
   back and get another one
