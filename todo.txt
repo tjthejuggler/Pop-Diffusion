@@ -21,6 +21,12 @@ get a settings.txt that is for quick testing with really low settings and use th
 make a settings.txt that has core settings for face animations so that i can just leave that in 
   and not have to change everything every time
 
+Box Zoom:
+  to use it we will stop the execution
+  then click and drag a box and click submit
+    submit sets the next X frames to the apropriate zoom and translate
+    then we restart from that point to continue generating
+
 when writing prompts/unique prompts on videos,
   convert from cv2 to PIL,
   add text(so unicode characters can be used),
