@@ -7,17 +7,19 @@ we have option to show first prompt in youtube description
   maybe eventually put in the changing aspect of prompt
   maybe make it a function that takes in the prompt and the it maybe just blanks, or something like 1-100 or w/e
 
-
-
-if an mp3 already exists in a frame dir folder, then dont download another one, have the credits in a file
-  make a SONGNAME_credits.txt that gets the songs credits in it
-  if we are going to get a song and a song already exists, then instead use the existing
-   song and set credits from txt file
-
 if a gist is already made, but then we rerun the the post_difuse stuff again, it makes another gist
-  we need some way to check to see if a gist has already been made
-  can we find a gist by name? if not then,
-    we could make a gist_url.txt and put the url in there and before making a gist check to see if that file exists
+  make a gist_url.txt and put the url in there 
+  before making a gist check to see if that file exists
+    if it does, then check to see if the settings at the gist url are the same as the settings.txt we want to save
+
+learn how to make a gist branch and use it
+
+a way to force a specific ccmixter song to be downloaded
+
+get a settings.txt that is for quick testing with really low settings and use that for testing
+
+make a settings.txt that has core settings for face animations so that i can just leave that in 
+  and not have to change everything every time
 
 when writing prompts/unique prompts on videos,
   convert from cv2 to PIL,
@@ -50,9 +52,22 @@ make a ccmixter 'never again' mp3 list and check for it when getting music, if w
 
 a way to make specific settings go over the settings overwrite settings
 
-CHECK TO SEE IF BAD FILE LOCATIONS GOT BACK INTO THE POST DIFUSE STUFF
+is prompts hooked up to frame multiplier? it should be
 
 make instructions on getting youtube jsons set up
+
+ability to create a whole new main.py by combining a settings.txt with the code, this is a way to actually fill
+  in all the settings with a settings.txt file
+
+organize settings.txt in the order settings are presented
+
+move all setting_inputs to the top of the screen, just after credits
+
+how to start with all cells closed by default?
+
+list all features - tj
+
+if there is no 'unique prompt' video being made, then automatically use standard in frame interpolation
 
 can dynamically morph from x to y using weights in for loops
   example: adorable: 10, creep: -10 ----> adorable: -10, creep: 10

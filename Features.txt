@@ -1,20 +1,37 @@
 Features
 
-Antarctic prompts
-    -On frames indicated in 'antarctic_prompt_frames_input', "Antarctic image-to-text AI" will look at the image and create a new prompt which will be added to the prompt list for that frame.
-    -Words can be added to the begining and end of the generate prompt
-    -Any number of prompts can be created for a given frame
-
 Different Settings for different Frames
     -Most of the settings can be set like the animation settings in the format "frame#: (setting), frame#: (setting), ..."
     for example: cutn_batches - "0: (8), 100: (2)"
         this will make a series that goes down from 8 to 2 over the first 100 frames
 
+Overwrite settings in notebook with settings.txt
+
+Frame multiplier
+    -every frame number in all the settings will be multiplied by the frame multiplier,
+        this allows more frames to be added all at once without changing the relativity of the settings
+
+Controlled Box Zoom 
+    -
+
 Object Detection:
     -
 
-Videos:
-    -several new types of videos have been added
-    -there is an info video that puts some settings to the left of every frame, by default this goes to 1 frame a second
-    -there is a video that shows the prompt for each frame over top the frame
-    -there is a FILM interpolation video that has its own settings
+Antarctic prompts
+    -On frames indicated in 'antarctic_prompt_frames_input', "Antarctic image-to-text AI" will look at the image and create a new prompt which will be added to the prompt list for that frame.
+    -Words can be added to the begining and end of the generate prompt
+    -Any number of prompts can be created for a given frame
+
+Several new types of videos have been added
+    -Info Video: puts some settings to the left of every frame, by default this goes to 1 frame a second
+    -Prompt Video: shows the prompt for each frame over top the frame
+    -Unique Prompt Video: shows just the part of the prompt that is specific to each given frame
+    -Interpolation Video: FILM interpolation video that has its own settings, interpolation can be done
+        to either standard frames or Unique Prompt Video
+
+Automatic video post-production
+    -download a random creative commons song from a ccmixter.org search term
+    -add the song to the video
+    -change the video speed to set it to a specific length
+    -create a gist of the settings.txt
+    -upload a video to youtube with the settings.txt gist and ccmixter credits in the description
