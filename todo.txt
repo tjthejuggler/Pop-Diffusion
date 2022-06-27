@@ -21,11 +21,6 @@ get a settings.txt that is for quick testing with really low settings and use th
 make a settings.txt that has core settings for face animations so that i can just leave that in 
   and not have to change everything every time
 
-put stuff with no settings and just functions and libraries after the pre-difuse settings
-  Before Settings:
-    Install and Import Dependencies
-    Define Midas Functions
-    
 Box Zoom:
   to use it we will stop the execution
   then click and drag a box and click submit
