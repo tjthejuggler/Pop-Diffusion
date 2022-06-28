@@ -410,3 +410,88 @@ for i in range(180):
 image_prompts = {
     # 0:['ImagePromptsWorkButArentVeryGood.png:2',],
 }
+
+
+#EXTENDED AGING INTO DEATH WITH WEIGHT MORPH---------------------------------
+
+text_prompts = {}
+creepy_weight = -10
+ador_weight = 12
+for i in range(1890):
+    # if i > 190:
+    #     text_prompts[i] = [
+    #         "Beautiful detailed portrait of an evil mechanical corpse evil by Nick Silva, Shin JeongHo, Wandah Kurniawan, Symmetrical composition with people centered, trending on artstation, colorized:12",
+    #         "text:-6",
+    #         "glasses:-3",
+    #         "glowing eyes: "+str((i-158)/2),
+    #         "creepy: "+str(creepy_weight),
+    #         "color: 9",
+    #         "skin, flesh: -"+str((i-158)/2)
+    #     ]  
+    if i > 160:
+        text_prompts[i] = [
+            "Beautiful detailed portrait of a "+str(i)+" year old rotten corpse goddess by Nick Silva, Shin JeongHo, Wandah Kurniawan, Symmetrical composition with people centered, trending on artstation, colorized:12",
+            "text:-6",
+            "glasses:-3",
+            "glowing eyes: "+str((i-158)/2),
+            "robot, cyborg: "+str((i-158)/2),
+            "creepy: "+str(creepy_weight),
+            "color: 9"
+            "skin, flesh, human: -"+str((i-158)/2)
+        ]  
+    elif i > 130:
+        text_prompts[i] = [
+            "Beautiful detailed portrait of a "+str(i)+" year old toxic cyborg goddess by Nick Silva, Shin JeongHo, Wandah Kurniawan, Symmetrical composition with people centered, trending on artstation, colorized:12",
+            "text:-6",
+            "glasses:-3",
+            "creepy: "+str(creepy_weight),
+            "color: 9"
+        ]      
+    elif i > 30:
+        text_prompts[i] = [
+            "Beautiful detailed portrait of a "+str(i-30)+" year old cyborg demigoddess by Nick Silva, Shin JeongHo, Wandah Kurniawan, Symmetrical composition with people centered, trending on artstation, colorized:12",
+            "text:-6",
+            "glasses:-3",
+            "creepy: "+str(creepy_weight),
+            "adorable: "+str(ador_weight),
+            "color: 9"
+        ]
+    elif i > 25:
+        text_prompts[i] = [
+            "Beautiful detailed portrait of a "+str(i-25)+" month old cyborg baby princess by Nick Silva, Shin JeongHo, Wandah Kurniawan, Symmetrical composition with people centered, trending on artstation, colorized:12",
+            "text:-6",
+            "glasses:-3",
+             "adorable: "+str(ador_weight),
+             "color: 6"
+        ]
+    elif i > 20:
+        text_prompts[i] = [
+            "Beautiful detailed portrait of an adorable "+str(i-20)+" day old baby cyborg baby princess by Nick Silva, Shin JeongHo, Wandah Kurniawan, Symmetrical composition with people centered, trending on artstation, colorized:12",
+            "text:-6",
+            "glasses:-3",
+            "adorable: "+str(ador_weight),
+            "color: 6"
+        ]
+    elif i > 10:
+          text_prompts[i] = [
+            "Beautiful detailed picture of a "+str(i-10)+" mile long festering wire by Nick Silva, Shin JeongHo, Jim Burns, Symmetrical composition with tree centered, trending on artstation, colorized:12",
+            "text:-6",
+            "glasses:-3",
+            "color: 3"
+        ]
+    else:
+          text_prompts[i] = [
+            "Beautiful detailed picture of a "+str(i)+" meter long festering wire by Nick Silva, Shin JeongHo, Jim Burns, Symmetrical composition with plant centered, trending on artstation, colorized:12",
+            "text:-6",
+            "color: 3"
+        ]
+    
+    if i>30 and (i+5) % 10 == 0:
+          creepy_weight+=1
+    if i>20 and i % 10 == 0:
+          ador_weight-=1
+
+image_prompts = {
+    # 0:['ImagePromptsWorkButArentVeryGood.png:2',],
+}
+
