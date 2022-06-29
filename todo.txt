@@ -15,18 +15,21 @@ wait:
     make a gist_url.txt and put the url in there 
     before making a gist check to see if that file exists
       if it does, then check to see if the settings at the gist url are the same as the settings.txt we want to save
+  
+if there is no 'unique prompt' video being made, then automatically use standard in frame interpolation
 
 a way to force a specific ccmixter song to be downloaded
   maybe by inputting its url instead of a ccmixter search url
 
-how to make a button?
+how to make a button?widget
   make it save current settings to a 'settings templates' folder
-how to make a dynamic @param dropdown that gets populated with all the settings.txt files in this template folder
+how to make a dynamic @param dropdown that gets populated programatically
+make a settings folder, inside the folder put text files  and we wanna put this files intp param like for loop 
+  clip model one you can check 
+do this with all the settings.txt files in this template folder
   get a settings.txt that is for quick testing with really low settings and use that for testing
   make a settings.txt that has core settings for face animations so that i can just leave that in 
     and not have to change everything every time
-
-Everything before settings should be collapsable all at once
 
 Box Zoom:
   to use it we will stop the execution
@@ -67,7 +70,7 @@ how to start with all cells closed by default?
 
  - tj
 
-if there is no 'unique prompt' video being made, then automatically use standard in frame interpolation
+
 
 can dynamically morph from x to y using weights in for loops
   example: adorable: 10, creep: -10 ----> adorable: -10, creep: 10
