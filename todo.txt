@@ -13,6 +13,11 @@ tj:
   make a settings.txt that has core settings for face animations so that i can just leave that in 
     and not have to change everything every time
 
+bug:
+  it doesnt seem to be taking max frames from settings_overwrite, although it does seem to be taking other 
+    variables, so maybe there is a typo or something, even in the exported settings.txt it is the number
+    in the program settings, not the settings.txt
+
 save video settings to settings.txt and do it in a way that keeps the pre-video settings
 put save settings button at bottom of everything
 
