@@ -9,6 +9,9 @@ tj:
   Figure out why difuse has to be seperated and have video settings between itself
   learn how to make a gist branch and use it
   list all features
+  get a settings.txt that is for quick testing with really low settings and use that for testing
+  make a settings.txt that has core settings for face animations so that i can just leave that in 
+    and not have to change everything every time
 
 save video settings to settings.txt and do it in a way that keeps the pre-video settings
 put save settings button at bottom of everything
@@ -18,19 +21,13 @@ wait:
     make a gist_url.txt and put the url in there 
     before making a gist check to see if that file exists
       if it does, then check to see if the settings at the gist url are the same as the settings.txt we want to save
+  
 
 if there is no 'unique prompt' video being made, then automatically use standard in frame interpolation
 
 a way to force a specific ccmixter song to be downloaded
   maybe by inputting its url instead of a ccmixter search url
 
-how to make a button?
-  make it save current settings to a 'settings templates' folder
-how to make a dynamic @param dropdown that gets populated programatically
-  with all the settings.txt files in this template folder
-  get a settings.txt that is for quick testing with really low settings and use that for testing
-  make a settings.txt that has core settings for face animations so that i can just leave that in 
-    and not have to change everything every time
 
 Box Zoom:
   to use it we will stop the execution
@@ -67,6 +64,7 @@ ability to create a whole new main.py by combining a settings.txt with the code,
         we should be able to create a filled out new version of the program
 
 how to start with all cells closed by default?
+
 
 can dynamically morph from x to y using weights in for loops
   example: adorable: 10, creep: -10 ----> adorable: -10, creep: 10
