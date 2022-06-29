@@ -56,16 +56,15 @@ make a ccmixter 'never again' mp3 list and check for it when getting music, if w
   -take the url from the music credits (ex: http://dig.ccmixter.org/files/speck/52473) and put it into a list in the txt file
   -when getting a random mp3, check the list and if it is in the list, then get another one
 
-a way to make specific settings go over the settings overwrite settings
-  maybe the best way to do this is to just edit a settings file instead of having an overwrite overwrite
-
 is prompts hooked up to frame multiplier? it should be
 
 make instructions on getting youtube jsons set up
 
 ability to create a whole new main.py by combining a settings.txt with the code, this is a way to actually fill
   in all the settings with a settings.txt file
-    -Would probably involve having all code written twice, so maybe not feasible
+    -Can probably use this ->>  print(open(__file__).read())
+      it prints the entire program, so using that with some sort of replaces in conjunction with a settings.txt
+        we should be able to create a filled out new version of the program
 
 how to start with all cells closed by default?
 
