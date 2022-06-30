@@ -21,6 +21,16 @@ bug:
 figure out how to put settings overwrite stuff into one line for each item,
   even if there is a conditional in it
 
+make it obvious what bottom button is for. saves settings.txt to settings_files folder
+
+cutn_scheduling and transformation should be their own cells in settings
+
+make commented out manual settings overwrite overwrite for every setting after the settings overwrite stuff
+
+do this upscaling just before youtube
+  ffmpeg -i colortree.mp4 -vf scale=-1:1080:flags=lanczos -c:v libx264 -crf 21 out.mp4
+
+
 when the something other than custom is chosen in overwrite settings, it should give a print
   of the file directory to be pasted into custom so that 'run all' works smoothly
 
