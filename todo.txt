@@ -18,6 +18,9 @@ bug:
     variables, so maybe there is a typo or something, even in the exported settings.txt it is the number
     in the program settings, not the settings.txt
 
+figure out how to put settings overwrite stuff into one line for each item,
+  even if there is a conditional in it
+
 when the something other than custom is chosen in overwrite settings, it should give a print
   of the file directory to be pasted into custom so that 'run all' works smoothly
 
