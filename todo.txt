@@ -30,6 +30,15 @@ make commented out manual settings overwrite overwrite for every setting after t
 do this upscaling just before youtube
   ffmpeg -i colortree.mp4 -vf scale=-1:1080:flags=lanczos -c:v libx264 -crf 21 out.mp4
 
+get noise injector hooked up
+
+Box Zoom:
+  use skip button to do a zoom out from the box
+  when zooming in/out have the ability to change the skip frames number
+  make interations # an option for box zoom
+    box zoom options should be able to be changed for each zoom that is done
+  Eventually:
+    hook up OD zoom
 
 when the something other than custom is chosen in overwrite settings, it should give a print
   of the file directory to be pasted into custom so that 'run all' works smoothly
