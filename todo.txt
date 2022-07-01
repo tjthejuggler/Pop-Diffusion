@@ -32,6 +32,13 @@ figure out how to do upscaling like this on every png in a folder
 
 get noise injector hooked up
 
+used_series in try_to_get_inbetween needs work, it should check the original series and see if they are something other than their default  
+  that does nothing
+
+TJ!!!!!!!!!!!!!!!!!!!!!!!!!
+make this: try_to_get_inbetweens_with_limited_max_frame in guided box zoom
+  and see the note that is above these yellow squiggles. should be out of the water with a little more work over there
+
 Make credits look like this:
 ------------------------------------------------------
 Created by Pop Diffusion: (https://github.com/tjthejuggler/Pop-Diffusion)

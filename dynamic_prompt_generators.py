@@ -596,3 +596,104 @@ image_prompts = {
     # 0:['ImagePromptsWorkButArentVeryGood.png:2',],
 }
 
+#--------------------------maybe a repeat of nice colorful aging tree
+
+text_prompts = {}
+creepy_weight = -10
+ador_weight = 12
+for i in range(200):
+    if i > 190:
+        text_prompts[i] = [
+            "Detailed picture of an rotten smoldering dead face smokey ash tree, elderly old person faces etched into tree, corpse eyes, small green spouts starting to grow from the ground, by Nick Silva, Shin JeongHo, Wandah Kurniawan, Symmetrical composition with people centered, trending on artstation, colorized:12",
+            "text:-6",
+            "glasses:-3",
+            "creepy: "+str(creepy_weight),
+            "color: 9"
+        ]  
+    elif i > 175:
+        text_prompts[i] = [
+            "Beautiful detailed portrait of a old dying elderly "+str(i)+" year old person rotten tree dying lifeless dead eyes, fallen leaves by Nick Silva, Shin JeongHo, Wandah Kurniawan, Symmetrical composition with people centered, trending on artstation, colorized:12",
+            "text:-6",
+            "glasses:-3",
+            "creepy: "+str(creepy_weight),
+            "color: 9"
+        ]  
+    elif i > 160:
+        text_prompts[i] = [
+            "Beautiful detailed portrait of a old dying ancient mummy "+str(i)+" year old rotten tree dying lifeless dead eyes, fallen leaves by Nick Silva, Shin JeongHo, Wandah Kurniawan, Symmetrical composition with people centered, trending on artstation, colorized:12",
+            "text:-6",
+            "glasses:-3",
+            "creepy: "+str(creepy_weight),
+            "color: 9"
+        ]  
+    elif i > 150:
+        text_prompts[i] = [
+            "Beautiful detailed portrait of frail elderly dying "+str(i)+" year old tree man hybrid ancient God with closing eyes by Nick Silva, Shin JeongHo, Wandah Kurniawan, Symmetrical composition with people centered, trending on artstation, colorized:12",
+            "text:-6",
+            "glasses:-3",
+            "creepy: "+str(creepy_weight),
+            "color: 9"
+        ]   
+    elif i > 130:
+        text_prompts[i] = [
+            "Beautiful detailed portrait of frail wise "+str(i-30)+" year old tree hybrid closing eyeball diety by Nick Silva, Shin JeongHo, Wandah Kurniawan, Symmetrical composition with people centered, trending on artstation, colorized:12",
+            "text:-6",
+            "glasses:-3",
+            "creepy: "+str(creepy_weight),
+            "color: 9"
+        ]     
+    elif i > 80:
+        text_prompts[i] = [
+            "Beautiful detailed portrait of thick sturdy "+str(i-30)+" year old person fused to a magical eyeball tree by Nick Silva, Shin JeongHo, Wandah Kurniawan, Symmetrical composition with people centered, trending on artstation, colorized:12",
+            "text:-6",
+            "glasses:-3",
+            "creepy: "+str(creepy_weight),
+            "color: 9"
+        ]    
+    elif i > 30:
+        text_prompts[i] = [
+            "Beautiful detailed portrait of a "+str(i-30)+" year old eyeball tree hybrid God by Nick Silva, Shin JeongHo, Wandah Kurniawan, Symmetrical composition with people centered, trending on artstation, colorized:12",
+            "text:-6",
+            "glasses:-3",
+            "creepy: "+str(creepy_weight),
+            "adorable: "+str(ador_weight),
+            "color: 9"
+        ]
+    elif i > 25:
+        text_prompts[i] = [
+            "Beautiful detailed portraits of "+str(i-25)+" months old eyeball tree hybrid demigods by Nick Silva, Shin JeongHo, Wandah Kurniawan, Symmetrical composition with people centered, trending on artstation, colorized:12",
+            "text:-6",
+            "glasses:-3",
+             "adorable: "+str(ador_weight),
+             "color: 6"
+        ]
+    elif i > 20:
+        text_prompts[i] = [
+            "Beautiful detailed portrait of many adorable "+str(i-20)+" day old baby eyeballs babies h by Nick Silva, Shin JeongHo, Wandah Kurniawan, Symmetrical composition with people centered, trending on artstation, colorized:12",
+            "text:-6",
+            "glasses:-3",
+            "adorable: "+str(ador_weight),
+            "color: 6"
+        ]
+    elif i > 5:
+          text_prompts[i] = [
+            "Beautiful detailed portraits of "+str(i-5)+" week old fetus growing with many eyeballs by Nick Silva, Shin JeongHo, Jim Burns, Symmetrical composition with tree centered, trending on artstation, colorized:12",
+            "text:-6",
+            "glasses:-3",
+            "color: 3"
+        ]
+    else:
+          text_prompts[i] = [
+            "Beautiful detailed huge realistic tree with "+str(i)+" small multicolored circular eyeballs by Nick Silva, Shin JeongHo, Jim Burns, Symmetrical composition with plant centered, trending on artstation, colorized:12",
+            "text:-6",
+            "color: 3"
+        ]
+    
+    if i>30 and (i+5) % 10 == 0:
+          creepy_weight+=1
+    if i>20 and i % 10 == 0:
+          ador_weight-=1
+
+image_prompts = {
+    # 0:['ImagePromptsWorkButArentVeryGood.png:2',],
+}
