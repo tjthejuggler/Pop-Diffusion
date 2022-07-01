@@ -64,6 +64,7 @@ Box Zoom:
   doesnt seem to be zooming in as much as it should
 
   Eventually:
+    make 'skip' button have its own set of options so that i dont have to retype options for zoom in/out
     hook up OD zoom
     possible to update position/size of box as zoom happens?
 
