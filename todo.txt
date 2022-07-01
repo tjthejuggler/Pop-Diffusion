@@ -40,7 +40,7 @@ Fork of Disco Diffusion: (https://github.com/alembics/disco-diffusion)
 
 Film Interpolation: (https://github.com/google-research/frame-interpolation)
 
-Upscaled with: ffmpeg -i colortree.mp4 -vf scale=-1:1080:flags=lanczos -c:v libx264 -crf 21 out.mp4
+Upscaled with: ffmpeg -i in.mp4 -vf scale=-1:1080:flags=lanczos -c:v libx264 -crf 21 out.mp4
 
 First prompt:['Beautiful detailed huge realistic tree with 0 small multicolored circular eyeballs by Nick Silva, Shin JeongHo, Jim Burns, Symmetrical composition with plant centered, trending on artstation, colorized:12', 'text:-6', 'color: 3']
 
