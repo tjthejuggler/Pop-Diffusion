@@ -51,6 +51,8 @@ Music:
 Silence Await by Analog By Nature (c) copyright 2008 Licensed under a Creative Commons Attribution (3.0) license. http://dig.ccmixter.org/files/cdk/17432 Ft: oldDog
 ------------------------------------------------------
 
+a way to automatically save prompt generation algorithms using splits and the __file__ thing that can save all the code of the program
+
 change Box Zoom/OD to Guided Zoom/AI Guided Zoom
 
 Box Zoom:
