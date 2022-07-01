@@ -27,7 +27,7 @@ cutn_scheduling and transformation should be their own cells in settings
 
 make commented out manual settings overwrite overwrite for every setting after the settings overwrite stuff
 
-do this upscaling just before youtube
+figure out how to do upscaling like this on every png in a folder
   ffmpeg -i colortree.mp4 -vf scale=-1:1080:flags=lanczos -c:v libx264 -crf 21 out.mp4
 
 get noise injector hooked up
@@ -55,20 +55,17 @@ a way to automatically save prompt generation algorithms using splits and the __
 
 change Box Zoom/OD to Guided Zoom/AI Guided Zoom
 
+
+prompt_generation_algorithm should be saved to a long text file of all of them, but also saved individually in project folder 
+      and turned into a gist and put into the youtube description
+
+
 Box Zoom:
-  use skip button to do a zoom out from the box
-  when zooming in/out have the ability to change the skip frames number
-  make interations # an option for box zoom
-    box zoom options should be able to be changed for each zoom that is done
-  option for continuous zoom, it just keeps going until a new zoom is introduced. 
-    this means that eventually the rot mat will get to the center
-    a speed should be set for this
-      maybe even a speed pattern, like a ramping up of speed
-  when zoom starts maybe ramp into the speed - this can be an option
-  we may want a lower skip steps number for the zooms, and higher when staying still
-    a next level of this would be to change the prompt frame numbers dynamically based on whether we are zooming or noot
+  doesnt seem to be zooming in as much as it should
+
   Eventually:
     hook up OD zoom
+    possible to update position/size of box as zoom happens?
 
 when the something other than custom is chosen in overwrite settings, it should give a print
   of the file directory to be pasted into custom so that 'run all' works smoothly
