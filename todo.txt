@@ -32,11 +32,39 @@ do this upscaling just before youtube
 
 get noise injector hooked up
 
+Make credits look like this:
+------------------------------------------------------
+Created by Pop Diffusion: (https://github.com/tjthejuggler/Pop-Diffusion)
+
+Fork of Disco Diffusion: (https://github.com/alembics/disco-diffusion)
+
+Film Interpolation: (https://github.com/google-research/frame-interpolation)
+
+Upscaled with: ffmpeg -i colortree.mp4 -vf scale=-1:1080:flags=lanczos -c:v libx264 -crf 21 out.mp4
+
+First prompt:['Beautiful detailed huge realistic tree with 0 small multicolored circular eyeballs by Nick Silva, Shin JeongHo, Jim Burns, Symmetrical composition with plant centered, trending on artstation, colorized:12', 'text:-6', 'color: 3']
+
+Full Settings:
+https://gist.github.com/tjthejuggler/18ef4f442c7d24dbfd5194f90cbc898f
+
+Music:
+Silence Await by Analog By Nature (c) copyright 2008 Licensed under a Creative Commons Attribution (3.0) license. http://dig.ccmixter.org/files/cdk/17432 Ft: oldDog
+------------------------------------------------------
+
+change Box Zoom/OD to Guided Zoom/AI Guided Zoom
+
 Box Zoom:
   use skip button to do a zoom out from the box
   when zooming in/out have the ability to change the skip frames number
   make interations # an option for box zoom
     box zoom options should be able to be changed for each zoom that is done
+  option for continuous zoom, it just keeps going until a new zoom is introduced. 
+    this means that eventually the rot mat will get to the center
+    a speed should be set for this
+      maybe even a speed pattern, like a ramping up of speed
+  when zoom starts maybe ramp into the speed - this can be an option
+  we may want a lower skip steps number for the zooms, and higher when staying still
+    a next level of this would be to change the prompt frame numbers dynamically based on whether we are zooming or noot
   Eventually:
     hook up OD zoom
 
