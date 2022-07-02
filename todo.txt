@@ -36,6 +36,13 @@ guided zoom:
 
 FIGURE OUT WHY BOX ZOOOM IS ACTING WEIRD
 
+new music
+  an option to have buttons that stop the music add to video and give the option to
+    hear music
+    change music
+    approve music
+    THIS stuff should be able to be done by turning things into functions
+
 
 a way to force a specific ccmixter song to be downloaded
   maybe by inputting its url instead of a ccmixter search url
