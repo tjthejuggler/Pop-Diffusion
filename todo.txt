@@ -7,11 +7,15 @@ tj:
     maybe eventually put in the changing aspect of prompt
     maybe make it a function that takes in the prompt and the it maybe just blanks, or something like 1-100 or w/e
   Figure out why difuse has to be seperated and have video settings between itself
-  learn how to make a gist branch and use it
-  list all features
+  learn how to make a gist branch and use it      
+  list all features 
   get a settings.txt that is for quick testing with really low settings and use that for testing
   make a settings.txt that has core settings for face animations so that i can just leave that in 
     and not have to change everything every time
+get noise injector hooked up
+used_series in try_to_get_inbetween needs work, it should check the original series and see if they are something other than their default  
+  that does nothing
+change Box Zoom/OD to Guided Zoom/AI Guided Zoom
   is prompts hooked up to frame multiplier? it should be
   make instructions on getting youtube jsons set up for other used_series
   figure out why new users have to use DD before PD works for them
