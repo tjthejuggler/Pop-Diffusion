@@ -30,6 +30,9 @@ guided zoom:
     hook up OD zoom
     possible to update position/size of box as zoom happens?
 
+FIGURE OUT WHY BOX ZOOOM IS ACTING WEIRD
+
+
 a way to force a specific ccmixter song to be downloaded
   maybe by inputting its url instead of a ccmixter search url
 
