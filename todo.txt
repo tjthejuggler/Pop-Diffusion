@@ -12,67 +12,26 @@ tj:
   get a settings.txt that is for quick testing with really low settings and use that for testing
   make a settings.txt that has core settings for face animations so that i can just leave that in 
     and not have to change everything every time
+  is prompts hooked up to frame multiplier? it should be
+  make instructions on getting youtube jsons set up for other used_series
+  figure out why new users have to use DD before PD works for them
+  get noise injector hooked up
+  used_series in try_to_get_inbetween needs work, it should check the original series and see if they are something other than their default  
+    that does nothing
+  bug  : sometimes when i stop and start generating again, it generates from an earlier frame than i am actually at, 
+            figure out why this happens and how to stop it. there is probably something counting completed frames and setting the start
+            point from there, this should be in prepare diffuse
 
-bug:
-  it doesnt seem to be taking max frames from settings_overwrite, although it does seem to be taking other 
-    variables, so maybe there is a typo or something, even in the exported settings.txt it is the number
-    in the program settings, not the settings.txt
-
-
-get noise injector hooked up
-
-used_series in try_to_get_inbetween needs work, it should check the original series and see if they are something other than their default  
-  that does nothing
-
-make a gist of stats and add it to yt description
-
-TJ!!!!!!!!!!!!!!!!!!!!!!!!!
-make this: try_to_get_inbetweens_with_limited_max_frame in guided box zoom
-  and see the note that is above these yellow squiggles. should be out of the water with a little more work over there
-
-
-change Box Zoom/OD to Guided Zoom/AI Guided Zoom
-
-
-Box Zoom:
-  doesnt seem to be zooming in as much as it should
-
+guided zoom:
+  make instructions on how to use guided zoom next to guided zoom
+  change Box Zoom/OD to Guided Zoom/AI Guided Zoom
+  bug?:  doesnt seem to be zooming in as much as it should
   Eventually:
-    make 'skip' button have its own set of options so that i dont have to retype options for zoom in/out
     hook up OD zoom
     possible to update position/size of box as zoom happens?
 
-when the something other than custom is chosen in overwrite settings, it should give a print
-  of the file directory to be pasted into custom so that 'run all' works smoothly
-
-save video settings to settings.txt and do it in a way that keeps the pre-video settings
-put save settings button at bottom of everything
-
-wait:
-  if a gist is already made, but then we rerun the the post_difuse stuff again, it makes another gist
-    make a gist_url.txt and put the url in there 
-    before making a gist check to see if that file exists
-      if it does, then check to see if the settings at the gist url are the same as the settings.txt we want to save
-  
-
-if there is no 'unique prompt' video being made, then automatically use standard in frame interpolation
-
 a way to force a specific ccmixter song to be downloaded
   maybe by inputting its url instead of a ccmixter search url
-
-
-Box Zoom:
-  to use it we will stop the execution
-  then click and drag a box and click submit
-    submit sets the next X frames to the apropriate zoom and translate
-    then we restart from that point to continue generating
-
-when writing prompts/unique prompts on videos,
-  convert from cv2 to PIL,
-  add text(so unicode characters can be used),
-    (example of characters that cant currently be used: https://studio.youtube.com/video/ZBpqktV35nM/edit)
-  and convert back to cv2 (maybe there is no need to convert back if it is saving the images as we need them)
-  make params for size and color
 
 when an interpolation is attempted, add its interpolation data to interpolation_observations.txt with status = failed
   make another cell after it that is "update interpolation observations"
@@ -85,26 +44,13 @@ make a ccmixter 'never again' mp3 list and check for it when getting music, if w
   -take the url from the music credits (ex: http://dig.ccmixter.org/files/speck/52473) and put it into a list in the txt file
   -when getting a random mp3, check the list and if it is in the list, then get another one
 
-is prompts hooked up to frame multiplier? it should be
-
-make instructions on getting youtube jsons set up
-
-ability to create a whole new main.py by combining a settings.txt with the code, this is a way to actually fill
-  in all the settings with a settings.txt file
-    -Can probably use this ->>  print(open(__file__).read())
-      it prints the entire program, so using that with some sort of replaces in conjunction with a settings.txt
-        we should be able to create a filled out new version of the program
-
 how to start with all cells closed by default?
-
 
 can dynamically morph from x to y using weights in for loops
   example: adorable: 10, creep: -10 ----> adorable: -10, creep: 10
 
 dynamic way to fade through random artists to keep the fade smooth
   example: by 0:a,b,c ; 1:b,c,d ; 2:c,d,e... always just one artists coming and one going
-
-built-in text remover checkbox that automatically adds a -text/words/signature/autograph prompt
 
 at the end of Setup Interpolation cell, compare interpolations to ..AI/Pop_Diffusion/interpolation_observations.txt to see
   if we can tell if the interpolation will fail for sure:
