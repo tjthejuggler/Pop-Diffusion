@@ -18,10 +18,6 @@ bug:
     variables, so maybe there is a typo or something, even in the exported settings.txt it is the number
     in the program settings, not the settings.txt
 
-figure out how to put settings overwrite stuff into one line for each item,
-  even if there is a conditional in it
-
-make it obvious what bottom button is for. saves settings.txt to settings_files folder
 
 cutn_scheduling and transformation should be their own cells in settings
 
