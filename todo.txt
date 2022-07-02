@@ -7,8 +7,8 @@ tj:
     maybe eventually put in the changing aspect of prompt
     maybe make it a function that takes in the prompt and the it maybe just blanks, or something like 1-100 or w/e
   Figure out why difuse has to be seperated and have video settings between itself
-  learn how to make a gist branch and use it
-  list all features
+  learn how to make a gist branch and use it      
+  list all features 
   get a settings.txt that is for quick testing with really low settings and use that for testing
   make a settings.txt that has core settings for face animations so that i can just leave that in 
     and not have to change everything every time
@@ -17,6 +17,10 @@ bug:
   it doesnt seem to be taking max frames from settings_overwrite, although it does seem to be taking other 
     variables, so maybe there is a typo or something, even in the exported settings.txt it is the number
     in the program settings, not the settings.txt
+
+make a dict has int keys and list values
+  dynamically add extra string every one of it 
+
 
 
 get noise injector hooked up
