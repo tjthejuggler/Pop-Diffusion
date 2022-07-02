@@ -19,13 +19,6 @@ bug:
     in the program settings, not the settings.txt
 
 
-cutn_scheduling and transformation should be their own cells in settings
-
-make commented out manual settings overwrite overwrite for every setting after the settings overwrite stuff
-
-figure out how to do upscaling like this on every png in a folder
-  ffmpeg -i colortree.mp4 -vf scale=-1:1080:flags=lanczos -c:v libx264 -crf 21 out.mp4
-
 get noise injector hooked up
 
 used_series in try_to_get_inbetween needs work, it should check the original series and see if they are something other than their default  
@@ -37,32 +30,8 @@ TJ!!!!!!!!!!!!!!!!!!!!!!!!!
 make this: try_to_get_inbetweens_with_limited_max_frame in guided box zoom
   and see the note that is above these yellow squiggles. should be out of the water with a little more work over there
 
-Make credits look like this:
-------------------------------------------------------
-Created by Pop Diffusion: (https://github.com/tjthejuggler/Pop-Diffusion)
-
-Fork of Disco Diffusion: (https://github.com/alembics/disco-diffusion)
-
-Film Interpolation: (https://github.com/google-research/frame-interpolation)
-
-Upscaled with: ffmpeg -i in.mp4 -vf scale=-1:1080:flags=lanczos -c:v libx264 -crf 21 out.mp4
-
-First prompt:['Beautiful detailed huge realistic tree with 0 small multicolored circular eyeballs by Nick Silva, Shin JeongHo, Jim Burns, Symmetrical composition with plant centered, trending on artstation, colorized:12', 'text:-6', 'color: 3']
-
-Full Settings:
-https://gist.github.com/tjthejuggler/18ef4f442c7d24dbfd5194f90cbc898f
-
-Music:
-Silence Await by Analog By Nature (c) copyright 2008 Licensed under a Creative Commons Attribution (3.0) license. http://dig.ccmixter.org/files/cdk/17432 Ft: oldDog
-------------------------------------------------------
-
-a way to automatically save prompt generation algorithms using splits and the __file__ thing that can save all the code of the program
 
 change Box Zoom/OD to Guided Zoom/AI Guided Zoom
-
-
-prompt_generation_algorithm should be saved to a long text file of all of them, but also saved individually in project folder 
-      and turned into a gist and put into the youtube description
 
 
 Box Zoom:
