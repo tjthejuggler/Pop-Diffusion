@@ -48,13 +48,18 @@ a way to force a specific ccmixter song to be downloaded
   maybe by inputting its url instead of a ccmixter search url
 
 when an interpolation is attempted, add its interpolation data to interpolation_observations.txt with status = failed
-  make another cell after it that is "update interpolation observations"
+  (see example file that currently exists)
+  this new cell should be just before the Interpolate! cell
+  make another cell after it that is "update interpolation observations" (just after the interpolate! cell)
     this cell changes the most recent interpolation observation to 'status = success' if all settings are the same as
       what are currently in the program
-  STEPS:
-    new program
-    make interpolation_observations.txt
-    
+
+
+prompt generateor, in the 'all' text file, don't add anyhting if the prompt generator is empty
+  also, check to see if what is about to be added is already exactly in the text file, if it is, then don't add it
+
+fix youtube description again
+
 
 make a ccmixter 'never again' mp3 list and check for it when getting music, if we get one in the list then loop 
   back and get another one
