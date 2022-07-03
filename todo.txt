@@ -51,6 +51,10 @@ when an interpolation is attempted, add its interpolation data to interpolation_
   make another cell after it that is "update interpolation observations"
     this cell changes the most recent interpolation observation to 'status = success' if all settings are the same as
       what are currently in the program
+  STEPS:
+    new program
+    make interpolation_observations.txt
+    
 
 make a ccmixter 'never again' mp3 list and check for it when getting music, if we get one in the list then loop 
   back and get another one
