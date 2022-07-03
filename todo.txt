@@ -42,6 +42,7 @@ new music
     change music
     approve music
     THIS stuff should be able to be done by turning things into functions
+  make our own "block" while loop that gets passed either by clicking the button or by a (user defined) amount of time has passed
 
 
 a way to force a specific ccmixter song to be downloaded
