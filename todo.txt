@@ -40,7 +40,7 @@ new music
   an option to have buttons that stop the music add to video and give the option to
     hear music
     change music
-    approve music
+    approve music - hooked to block
     THIS stuff should be able to be done by turning things into functions
 
 
