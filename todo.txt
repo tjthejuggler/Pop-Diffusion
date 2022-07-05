@@ -36,6 +36,29 @@ guided zoom:
 
 FIGURE OUT WHY BOX ZOOOM IS ACTING WEIRD
 
+custom film interpolation
+  input is animation style "preceding frame #: (interp #),..."
+  create a series from whatever is input
+  current_interp_frame_num
+  loop through all the frames:
+    check to see if the next frame is already in interp folder,
+    if it isn't:
+      copy frame to interp folder and rename it based on current_interp_frame_num
+    update current_interp_frame_num
+    calculate how many frames should be in there for this interpolation
+      frames_from_interpolation = 2 ** (interpolation_number) - 1
+    check to see if at least this many frames exist in interp folder
+      if they do:
+        update current_interp_frame_num
+        continue loop
+      if they don't:
+        do this interpolation
+        rename the newly interpolated frames based on current_interp_frame_num
+        update the current_interp_frame_num
+    
+    copy preceding fame to interp folder
+    
+
 new music
   an option to have buttons that stop the music add to video and give the option to
     hear music
@@ -45,6 +68,10 @@ new music
   make our own "block" while loop that gets passed either by clicking the button or by a (user defined) amount of time has passed
 
 if interpolation folder already exists, then dont do interpolation
+
+Advanced Interpolation:
+  a way to do different amounts of interpolation between different frames
+    for example, between every (frame % 5 == 0) and (frame % 5 == 1), do lots of interpolating, and not much between the other frames
 
 a way to force a specific ccmixter song to be downloaded
   maybe by inputting its url instead of a ccmixter search url
