@@ -36,6 +36,8 @@ guided zoom:
 
 FIGURE OUT WHY BOX ZOOOM IS ACTING WEIRD
 
+if ccmixter search has fewer than 40 results, then it crashes because 40 is hardcoded
+
 custom film interpolation
   input is animation style "preceding frame #: (interp #),..."
   create a series from whatever is input
@@ -58,14 +60,6 @@ custom film interpolation
     
     copy preceding fame to interp folder
     
-
-new music
-  an option to have buttons that stop the music add to video and give the option to
-    hear music
-    change music
-    approve music - hooked to block
-    THIS stuff should be able to be done by turning things into functions
-  make our own "block" while loop that gets passed either by clicking the button or by a (user defined) amount of time has passed
 
 if interpolation folder already exists, then dont do interpolation
 
