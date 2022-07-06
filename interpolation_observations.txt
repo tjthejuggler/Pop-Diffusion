@@ -1,7 +1,7 @@
 {
-"gpu" = "p100", "width" = 768, "height" = 512, "frames" = 40, "interp_num" = 10, status = fail
-"gpu" = "p100", "width" = 768, "height" = 512, "frames" = 40, "interp_num" = 9, status = fail
-"gpu" = "v100", "width" = 768, "height" = 512, "frames" = 150, "interp_num" = 7, status = success
-"gpu" = "v100", "width" = 768, "height" = 512, "frames" = 150, "interp_num" = 6, status = fail
-"gpu" = "v100", "width" = 768, "height" = 512, "frames" = 150, "interp_num" = 5, status = success
+"lol":{"gpu":"p100", "width":768, "height":512, "frames":40, "interp_num":10, "status":"fail"},
+"art":{"gpu":"p100", "width":768, "height":512, "frames":40, "interp_num":9, "status":"fail"},
+"batch_name":{"gpu":"v100", "width":768, "height":512, "frames":150, "interp_num":7, "status":"success"},
+"dog":{"gpu":"v100", "width":768, "height":512, "frames":150, "interp_num":6, "status":"fail"},
+"cat":{"gpu":"v100", "width":768, "height":512, "frames":150, "interp_num":5, "status":"failed"}
 }

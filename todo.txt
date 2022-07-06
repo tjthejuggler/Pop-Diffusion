@@ -1,6 +1,9 @@
 bugs:
   figure out why sometimes there are no stats being shown
 testing:
+test interpolation things
+test music song number
+test interpolation_observations code
 tj: 
   does settings overwrite work for items that are lists?
   we have option to show first prompt in youtube description
@@ -60,9 +63,6 @@ custom film interpolation
     
     copy preceding fame to interp folder
     
-
-if interpolation folder already exists, then dont do interpolation
-
 Advanced Interpolation:
   a way to do different amounts of interpolation between different frames
     for example, between every (frame % 5 == 0) and (frame % 5 == 1), do lots of interpolating, and not much between the other frames
@@ -70,21 +70,13 @@ Advanced Interpolation:
 a way to force a specific ccmixter song to be downloaded
   maybe by inputting its url instead of a ccmixter search url
 
-when an interpolation is attempted, add its interpolation data to interpolation_observations.txt with status = failed
-  (see example file that currently exists)
-  this new cell should be just before the Interpolate! cell
-  make another cell after it that is "update interpolation observations" (just after the interpolate! cell)
-    this cell changes the most recent interpolation observation to 'status = success' if all settings are the same as
-      what are currently in the program
 
 after text_prompt have something like text_overlay that can be used to show text 
 over top of images - this can even get rid of the current text 
 overlay system (just make sure that original images are preserved. this can be good for labeling lists of famous characters too.
 
-prompt generateor, in the 'all' text file, don't add anyhting if the prompt generator is empty
-  also, check to see if what is about to be added is already exactly in the text file, if it is, then don't add it
 
-fix youtube description again
+
 
 
 make a ccmixter 'never again' mp3 list and check for it when getting music, if we get one in the list then loop 
