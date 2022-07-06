@@ -39,6 +39,8 @@ guided zoom:
 
 FIGURE OUT WHY BOX ZOOOM IS ACTING WEIRD
 
+if ccmixter search has fewer than 40 results, then it crashes because 40 is hardcoded
+
 custom film interpolation
   input is animation style "preceding frame #: (interp #),..."
   create a series from whatever is input
@@ -61,8 +63,6 @@ custom film interpolation
     
     copy preceding fame to interp folder
     
-
-
 Advanced Interpolation:
   a way to do different amounts of interpolation between different frames
     for example, between every (frame % 5 == 0) and (frame % 5 == 1), do lots of interpolating, and not much between the other frames
