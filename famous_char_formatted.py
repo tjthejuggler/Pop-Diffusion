@@ -106,7 +106,7 @@ famous_characters = [
 famous_characters_years_list = []
 for character in famous_characters:
     famous_characters_years_list.append(character.split("(")[1].split(")")[0])
-# print(famous_characters_years_list)
+print(famous_characters_years_list)
 # print(len(famous_characters_years_list))
 # print(len(famous_characters))
 
@@ -114,12 +114,14 @@ new_year_list = []
 for year in famous_characters_years_list:
     year = year.replace('-',';')
     year = year.replace('s','')
-    year = year.split(';')[0]
     
+    print('year:', year)
     if "BC" in year:
+        print('yearBC', year)
         year = "-" + year
     else:
         year = year
+    year = year.split(';')[0]
     year = year.split(' ')[0]
     new_year_list.append(year)
     
