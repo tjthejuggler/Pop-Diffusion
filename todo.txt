@@ -75,10 +75,8 @@ after text_prompt have something like text_overlay that can be used to show text
 over top of images - this can even get rid of the current text 
 overlay system (just make sure that original images are preserved. this can be good for labeling lists of famous characters too.
 
-prompt generateor, in the 'all' text file, don't add anyhting if the prompt generator is empty
-  also, check to see if what is about to be added is already exactly in the text file, if it is, then don't add it
 
-fix youtube description again
+
 
 
 make a ccmixter 'never again' mp3 list and check for it when getting music, if we get one in the list then loop 
