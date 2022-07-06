@@ -1,6 +1,9 @@
 bugs:
   figure out why sometimes there are no stats being shown
 testing:
+test interpolation things
+test music song number
+test interpolation_observations code
 tj: 
   does settings overwrite work for items that are lists?
   we have option to show first prompt in youtube description
@@ -59,15 +62,6 @@ custom film interpolation
     copy preceding fame to interp folder
     
 
-new music
-  an option to have buttons that stop the music add to video and give the option to
-    hear music
-    change music
-    approve music - hooked to block
-    THIS stuff should be able to be done by turning things into functions
-  make our own "block" while loop that gets passed either by clicking the button or by a (user defined) amount of time has passed
-
-if interpolation folder already exists, then dont do interpolation
 
 Advanced Interpolation:
   a way to do different amounts of interpolation between different frames
