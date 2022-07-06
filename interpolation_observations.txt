@@ -3,6 +3,5 @@
 "art":{"gpu":"p100", "width":768, "height":512, "frames":40, "interp_num":9, "status":"fail"},
 "batch_name":{"gpu":"v100", "width":768, "height":512, "frames":150, "interp_num":7, "status":"success"},
 "dog":{"gpu":"v100", "width":768, "height":512, "frames":150, "interp_num":6, "status":"fail"},
-"cat":{"gpu":"v100", "width":768, "height":512, "frames":150, "interp_num":5, "status":"failed"},
-
+"cat":{"gpu":"v100", "width":768, "height":512, "frames":150, "interp_num":5, "status":"failed"}
 }
