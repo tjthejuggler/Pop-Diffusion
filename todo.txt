@@ -108,6 +108,7 @@ In settings overwrite there should be an option to use the same antarctic prompt
     get PD set up for 3d and move color fx stuff over
     once this is done, maybe make the first frame become the color pallete for the rest with an option to change it to a later frame
 
+OD
 figure out what point we are at with OD and get it working with specific items
   predefined objects to zoom into
   beyond:
@@ -115,6 +116,15 @@ figure out what point we are at with OD and get it working with specific items
       this could even be done without OD and with a click and drag
 OD Eventually:
   gpt3 can be used to combine object detected and current prompt into a new prompt
+OD Look at
+  make an info print of the object that is being zoomed in on (this means send it over from the TPU)
+  make a way for more settings to be input, number of frames to reach zoomed object, object to zoom in on if available
+    pick either:
+      number of frames to reach goal
+      speed to head towards goal
+      --------for both of these we probably want to pace it so that we reach both at the same time
+  maybe sometimes we pick a target based on how much it has to do with current or next prompt, not sure
+  maybe sometimes we use the label of the target to help create the next prompt with gpt3
 
 test:
   test info and prompt videos without antarctic prompts
@@ -144,20 +154,6 @@ https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/
 
 multiply prompts by absolute multiplier
   special consideration must be given for antarctic prompts
-
-Settings/Info files:
-  other info text file should keep track of total time in (AP, DO, Pop Diffusion, Interpolation) Interpolation settings, GPU name
-  info text file shuld also be in the gist or in a seperate gist
-
-OD
-  make an info print of the object that is being zoomed in on (this means send it over from the TPU)
-  make a way for more settings to be input, number of frames to reach zoomed object, object to zoom in on if available
-    pick either:
-      number of frames to reach goal
-      speed to head towards goal
-      --------for both of these we probably want to pace it so that we reach both at the same time
-  maybe sometimes we pick a target based on how much it has to do with current or next prompt, not sure
-  maybe sometimes we use the label of the target to help create the next prompt with gpt3
 
 Settings expirements:
   play with cut_pow less 1.0
