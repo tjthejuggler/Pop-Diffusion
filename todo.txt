@@ -87,9 +87,6 @@ make a ccmixter 'never again' mp3 list and check for it when getting music, if w
 how to start with all cells closed by default?
   maybe this is not possible, ive checked some
 
-a function that checks all prompts and looks for 0 sums and automatically changes a weight slightly to fix it
-  it can make the first weight go up by 1 for that frame
-
 can dynamically morph from x to y using weights in for loops
   example: adorable: 10, creep: -10 ----> adorable: -10, creep: 10
   maybe we need some sort of built in check to make sure that we do not sum to 0
