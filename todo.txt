@@ -37,11 +37,11 @@ guided zoom:
     hook up OD zoom
     possible to update position/size of box as zoom happens?
 
-FIGURE OUT WHY BOX ZOOOM IS ACTING WEIRD
+eventually make a warning for when an interpolation is attempted with settings that have failed in the Patsy
+  this isnt totally straight forward because i think it also depends on if another gpu is runnnig and how intensely
+  SUPER Eventually, once we get a custom interpolation set up we can use that if the settings as is would crash.
 
-if ccmixter search has fewer than 40 results, then it crashes because 40 is hardcoded
-
-custom film interpolation
+custom film interpolation (maybe this could eventually be a fork of FILM instead of code that is in Pop Diffusion)
   input is animation style "preceding frame #: (interp #),..."
   create a series from whatever is input
   current_interp_frame_num
@@ -60,24 +60,23 @@ custom film interpolation
         do this interpolation
         rename the newly interpolated frames based on current_interp_frame_num
         update the current_interp_frame_num
-    
     copy preceding fame to interp folder
-    
-Advanced Interpolation:
-  a way to do different amounts of interpolation between different frames
-    for example, between every (frame % 5 == 0) and (frame % 5 == 1), do lots of interpolating, and not much between the other frames
 
-a way to force a specific ccmixter song to be downloaded
-  maybe by inputting its url instead of a ccmixter search url
+-------------------------------------------------------
 
+ability to use a user provided mp3 instead of ccmixter
+
+put gpu info at very beginning before everything in its own cell
 
 after text_prompt have something like text_overlay that can be used to show text 
-over top of images - this can even get rid of the current text 
-overlay system (just make sure that original images are preserved. this can be good for labeling lists of famous characters too.
-
-
-
-
+  there are two ways this can be done
+    1 same as unique text and other text stuff
+    2 at the point the images are created and then fed into the DD stuff
+    For now we will go with 1, do it exactly the same as 'unique prompts'
+    -make unique prompts add text into a function
+    -make a new video setting for 'custom overlay text'
+    -make custom overlay text an option for interpolation
+    unique prompt could be a toggle in custom overlay - it just uses unique prompt instead of anything that is input
 
 make a ccmixter 'never again' mp3 list and check for it when getting music, if we get one in the list then loop 
   back and get another one
@@ -86,80 +85,62 @@ make a ccmixter 'never again' mp3 list and check for it when getting music, if w
   -when getting a random mp3, check the list and if it is in the list, then get another one
 
 how to start with all cells closed by default?
+  maybe this is not possible, ive checked some
+
+a function that checks all prompts and looks for 0 sums and automatically changes a weight slightly to fix it
+  it can make the first weight go up by 1 for that frame
 
 can dynamically morph from x to y using weights in for loops
   example: adorable: 10, creep: -10 ----> adorable: -10, creep: 10
+  maybe we need some sort of built in check to make sure that we do not sum to 0
+  i think this could be done in some way that uses the current 'try_to_get_inbetweens" function
+    it can use a list of strings instead of just a string though,
+      this way we can have multiple going in tandem
 
 dynamic way to fade through random artists to keep the fade smooth
   example: by 0:a,b,c ; 1:b,c,d ; 2:c,d,e... always just one artists coming and one going
-
-at the end of Setup Interpolation cell, compare interpolations to ..AI/Pop_Diffusion/interpolation_observations.txt to see
-  if we can tell if the interpolation will fail for sure:
-  if we have any failed interpolations with:
-    the same gpu
-    higher/equal frame dimensions, number of frames, interpolation number
-  then we can say pretty much for sure it is going to fail. (although maybe we also have to take into account if another print is currently running)
-
-figure out a smooth way to preview ccmixter mp3s
 
 In settings overwrite there should be an option to use the same antarctic prompts again
 
 3D Color stuff:
   test a long generation with color stuff to see if we can keep color
-
-use the code here to get make and get boxes that can be zoomed into 
-  https://hub-binder.mybinder.ovh/user/gereleth-jupyter-bbox-widget-fhggio0w/notebooks/examples/introduction.ipynb
+  if zippy 3d color fx works well,
+    get PD set up for 3d and move color fx stuff over
+    once this is done, maybe make the first frame become the color pallete for the rest with an option to change it to a later frame
 
 figure out what point we are at with OD and get it working with specific items
   predefined objects to zoom into
   beyond:
     it asks what to zoom into while the print is happening
       this could even be done without OD and with a click and drag
-
-some sort of random zoom in to a point thing without even using OD
-  this could be done with a click and drag of a box over the image
+OD Eventually:
+  gpt3 can be used to combine object detected and current prompt into a new prompt
 
 test:
   test info and prompt videos without antarctic prompts
   test new antarctic text promp formating 
 
-an option to show prompt/s over image
-  maybe on top of(with or without a background), maybe above or below image
-  maybe show it with put text onto each original X image so that it zooms or moves with the animation
-  in order to do prompt overlay on top of interpolated video we need to make the video ourself with
-        the interpolation output images
-
 AP Eventually:
   hook up another ai that determines category of antarctic phrases and choose artists/modifiers from list 
+  how can antarctic prompts happen with one TPU and multiple main programs?
+    a ranadom antarctic and is in the request image and resulting txt
 
-OD Eventually:
-  gpt3 can be used to combine object detected and current prompt into a new prompt
+move youtube, gist,to Pop Directory
 
 3D for color:
-  if zippy 3d color fx works well,
-    get PD set up for 3d and move color fx stuff over
-    once this is done, maybe make the first frame become the color pallete for the rest with an option to change it to a later frame
 
   bug:
-    crashes sometimes from memory error
     if it crashes and resumes then i lose all the antarctica prompts
+      is this still an issue? if so then it can be checked by starting a run with some antarctic prompts and t
+        hen turning it off and back 9on
 
 try this without another machine running:
 https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/GPT-J-6B/Inference_with_GPT_J_6B.ipynb#scrollTo=9vnZfO1HGSS7
 
-OD and AP:
-  if in loop and nothing happens for long enough then they should stop themselves
-  how can antarctic prompts happen with one TPU and multiple main programs?
-    a ranadom antarctic and is in the request image and resulting txt
 
-Controlled zoom
-  
+=======================================================
 
 
-AP:
-
-Interpolation:
-  could be broken up into runs by using a wait system similar to OD and AP
 
 multiply prompts by absolute multiplier
   special consideration must be given for antarctic prompts
