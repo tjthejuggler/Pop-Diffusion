@@ -1000,3 +1000,306 @@ Aaron Fischer 	Captain America 	2021 (June) 	Josh Trujillo, Jan Bazaldua 	United
 Zheng Zhilan 	Sister Staff 	2021 (July) 	Gene Luen Yang, Dike Ruan 	Shang-Chi Vol 2 #3
 Connor Young 	Darkhawk 	2021 (August) 	Kyle Higgins, Pepe Larraz, Juanan Ramírez 	Darkhawk Vol 2 #1
 Shela Sexton 	Escapade 	June 2022 	Charlie Jane Anders 	MARVEL’S VOICES: PRIDE Vol 2 #1 
+
+
+1
+Thor
+Thor
+2
+Spider-Man
+Spider-Man
+3
+Deadpool
+Deadpool
+4
+Iron Man
+Iron Man
+5
+Hulk
+Hulk
+6
+Wolverine
+Wolverine
+7
+Captain America
+Captain America
+8
+Doctor Strange
+Doctor Strange
+9
+Black Panther
+Black Panther
+10
+Groot
+Groot
+11
+Scarlet Witch
+Scarlet Witch
+12
+Rocket Raccoon
+Rocket Raccoon
+13
+Scott Lang (Ant Man)
+Scott Lang (Ant Man)
+14
+Black Widow
+Black Widow
+15
+Punisher
+Punisher
+16
+Silver Surfer
+Silver Surfer
+17
+Ghost Rider
+Ghost Rider
+18
+Star-Lord
+Star-Lord
+19
+Vision
+Vision
+20
+Hawkeye
+Hawkeye
+21
+Gambit
+Gambit
+22
+Phoenix
+Phoenix
+23
+Ms. Marvel
+Ms. Marvel
+24
+Nightcrawler
+Nightcrawler
+25
+Professor X
+Professor X
+26
+Bucky Barnes
+Bucky Barnes
+27
+Cable
+Cable
+28
+Spider-Man (Miles Morales)
+Spider-Man (Miles Morales)
+29
+Colossus
+Colossus
+30
+Captain Marvel
+Captain Marvel
+31
+Human Torch
+Human Torch
+32
+Nova
+Nova
+33
+Gamora
+Gamora
+34
+Odin
+Odin
+35
+Blade
+Blade
+36
+Drax the Destroyer
+Drax the Destroyer
+37
+War Machine
+War Machine
+38
+Thing
+Thing
+39
+Nick Fury
+Nick Fury
+40
+Daredevil
+Daredevil 
+
+Moon Knight
+Moon Knight
+42
+Beast
+Beast
+43
+Iceman
+Iceman
+44
+Quicksilver
+Quicksilver
+45
+Valkyrie
+Valkyrie
+46
+Wasp
+Wasp
+47
+Psylocke
+Psylocke
+48
+Storm
+Storm
+49
+X-23
+X-23
+50
+Rogue
+Rogue
+51
+Cyclops
+Cyclops
+52
+Falcon
+Falcon
+53
+Iron Fist
+Iron Fist
+54
+Luke Cage
+Luke Cage
+55
+Heimdall
+Heimdall
+56
+Ant-Man (Hank Pym)
+Ant-Man (Hank Pym)
+57
+She-Hulk
+She-Hulk
+58
+Yondu
+Yondu
+59
+Archangel
+Archangel
+60
+Spider Gwen
+Spider Gwen
+61
+Adam Warlock
+Adam Warlock
+62
+Invisible Woman
+Invisible Woman
+63
+Mr. Fantastic
+Mr. Fantastic
+64
+Spider-Man 2099
+Spider-Man 2099
+65
+Shuri Black Panther
+Shuri Black Panther
+66
+Domino
+Domino
+67
+Ronin
+Ronin
+68
+Spider-Woman
+Spider-Woman
+69
+Elektra
+Elektra
+70
+Kitty Pryde
+Kitty Pryde
+71
+Red Hulk
+Red Hulk
+72
+Phil Coulson
+Phil Coulson
+73
+Beta Ray Bill
+Beta Ray Bill
+74
+Havok
+Havok
+75
+Nebula
+Nebula
+76
+Jessica Jones
+Jessica Jones
+77
+Scarlet Spider
+Scarlet Spider
+78
+Cloak
+Cloak
+79
+Dagger
+Dagger
+80
+Mantis
+Mantis 
+
+81
+Bishop
+Bishop
+82
+Pepper Potts
+Pepper Potts
+83
+Hercules
+Hercules
+84
+Korg
+Korg
+85
+Namor
+Namor
+86
+Thor - Jane Foster
+Thor - Jane Foster
+87
+Sentry
+Sentry
+88
+Sif
+Sif
+89
+Gwenpool
+Gwenpool
+90
+Hawkeye - Kate Bishop
+Hawkeye - Kate Bishop
+91
+Magik
+Magik
+92
+Quake
+Quake
+93
+Jubilee
+Jubilee
+94
+Spider-Girl
+Spider-Girl
+95
+Peggy Carter
+Peggy Carter
+96
+Squirrel Girl
+Squirrel Girl
+97
+Banshee
+Banshee
+98
+Howard the Duck
+Howard the Duck
+99
+Okoye
+Okoye
+100
+Captain Britain
+Captain Britain 
