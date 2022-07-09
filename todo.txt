@@ -20,6 +20,7 @@ used_series in try_to_get_inbetween needs work, it should check the original ser
   that does nothing
 change Box Zoom/OD to Guided Zoom/AI Guided Zoom
   is prompts hooked up to frame multiplier? it should be
+    special consideration for antarctic prompts
   make instructions on getting youtube jsons set up for other used_series
   figure out why new users have to use DD before PD works for them
   get noise injector hooked up
@@ -37,7 +38,7 @@ guided zoom:
     hook up OD zoom
     possible to update position/size of box as zoom happens?
 
-eventually make a warning for when an interpolation is attempted with settings that have failed in the Patsy
+eventually make a warning for when an interpolation is attempted with settings that have failed in the past
   this isnt totally straight forward because i think it also depends on if another gpu is runnnig and how intensely
   SUPER Eventually, once we get a custom interpolation set up we can use that if the settings as is would crash.
 
@@ -66,17 +67,7 @@ custom film interpolation (maybe this could eventually be a fork of FILM instead
 
 ability to use a user provided mp3 instead of ccmixter
 
-put gpu info at very beginning before everything in its own cell
-
-after text_prompt have something like text_overlay that can be used to show text 
-  there are two ways this can be done
-    1 same as unique text and other text stuff
-    2 at the point the images are created and then fed into the DD stuff
-    For now we will go with 1, do it exactly the same as 'unique prompts'
-    -make unique prompts add text into a function
-    -make a new video setting for 'custom overlay text'
-    -make custom overlay text an option for interpolation
-    unique prompt could be a toggle in custom overlay - it just uses unique prompt instead of anything that is input
+try adding text in the middle of animation creation just to see the effect
 
 make a ccmixter 'never again' mp3 list and check for it when getting music, if we get one in the list then loop 
   back and get another one
@@ -148,10 +139,6 @@ https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/
 =======================================================
 
 
-
-multiply prompts by absolute multiplier
-  special consideration must be given for antarctic prompts
-
 Settings expirements:
   play with cut_pow less 1.0
   try antarctic with just an init image and either skip all steps on first prompt or get it to make even the first prompt
@@ -165,29 +152,23 @@ New Animaiton mode:
   make cutn scheduling have new animation mode so it can be different from frame to frame
   look into making models be done with the "new" system
 
+try training with my own art dataset
+
 Misc:
   when i do a series of images in a batch, i should be able to get the seed of each one (when it is on random)
-  figure out about finetunning and see if can fine tune on zippys and discord channels to make a helpful DD bot
+  figure out about gpt finetunning and see if can fine tune on zippys and discord channels to make a helpful DD bot
   a way to load settings from settings file
     this should override the settings in the markdowns
   possible to use new init images throughout the print? maybe something involving reverse or something to make it gradually go from one init to another through a prompt? not really thought out yet..
   a way to make comparisons of two different changing settings or a control next to each other in one video. Ex: show two slideshows in the same video, in one of them sat_scale is changing, in the other one it is not, and everything else is the same.
   a grid comparison of changing settings and their combinations, this could even be a 3d grid or a many dimension grid that is viewed by changing settings(between pre-defined, pre-printed settings) and seeing result in real time
-
-Maybe:
-  put lots of optional stuff at the very top instead of having it literred all around
-  convert frame skip steps into steps
-    this can be a seperate input that goes below it and we can use one or the other. In fact, we can make a special print or something that gives us one if we give the other.
   an estimated completion time would be cool, but probably difficult
-
-Unknown:
-  prompt "ramp" overwrite setting system:
-    combined with arctic this could be cool
-    (maybe this was just an early thought of the current AP system)
 
 Meta:
   figure out a way to test code from in here
     maybe replace google drive with a local folder
+    there is something in some versions about setting it up to work with cpu instead of gpu, but maybe there 
+      would be a way to use it with  alocal gpu too
 
 Research:
   find out how many notebooks other people are running at same time in pro+
