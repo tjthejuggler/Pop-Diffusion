@@ -26,9 +26,16 @@ change Box Zoom/OD to Guided Zoom/AI Guided Zoom
   get noise injector hooked up
   used_series in try_to_get_inbetween needs work, it should check the original series and see if they are something other than their default  
     that does nothing
+
   bug  : sometimes when i stop and start generating again, it generates from an earlier frame than i am actually at, 
             figure out why this happens and how to stop it. there is probably something counting completed frames and setting the start
             point from there, this should be in prepare diffuse
+
+realESGAN:
+  with how it is right now it will mess things up when it stops in the middle of the run,
+    it will move all the images out of the main folder and run esgan on them and put the esgan scaled images in the main folder
+    really, we want to just put the esgan images in a new folder and leave the originals where they are.
+      if esgan is being used, then change where we get the images from. the base folder should always have the originals
 
 guided zoom:
   make instructions on how to use guided zoom next to guided zoom
@@ -113,6 +120,12 @@ OD Look at
       --------for both of these we probably want to pace it so that we reach both at the same time
   maybe sometimes we pick a target based on how much it has to do with current or next prompt, not sure
   maybe sometimes we use the label of the target to help create the next prompt with gpt3
+
+Rotatable guided zoom box:
+  would need to alter the current box selector library
+    want to kep track of the top of the square and the way that it is rotated
+  how to import my own external library?
+    can i make my own pip? somehting else?
 
 test:
   test info and prompt videos without antarctic prompts
