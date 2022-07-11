@@ -45,6 +45,8 @@ guided zoom:
     hook up OD zoom
     possible to update position/size of box as zoom happens?
 
+antarctic text prompts not deleting the .txt after prompts are used, and the start_time is not being reset after it is used
+
 eventually make a warning for when an interpolation is attempted with settings that have failed in the past
   this isnt totally straight forward because i think it also depends on if another gpu is runnnig and how intensely
   SUPER Eventually, once we get a custom interpolation set up we can use that if the settings as is would crash.
