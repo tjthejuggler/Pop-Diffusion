@@ -1,0 +1,42 @@
+
+1984 	A Nightmare on Elm Street 	Glen Lantz
+1990 	Edward Scissorhands 	Edward Scissorhands 
+1993 	What's Eating Gilbert Grape 	Gilbert Grape 
+1997 	Donnie Brasco 	Donnie Brasco 
+1998 	Fear and Loathing in Las Vegas 	Raoul Duke 
+1999 	Sleepy Hollow 	Ichabod Crane 
+2001 	Blow 	George Jung 
+2003 	Pirates of the Caribbean	Captain Jack Sparrow
+2003 	Once Upon a Time in Mexico 	Sands 
+2005 	Charlie and the Chocolate Factory 	Willy Wonka 
+2007 	Sweeney Todd: The Demon Barber of Fleet Street 	Sweeney Todd 
+2009 	The Imaginarium of Doctor Parnassus 	Imaginarium Tony 1 	Cameo
+2009 	Public Enemies 	John Dillinger 
+2010 	Alice in Wonderland 	Tarrant Hightopp 
+2012 	Dark Shadows 	Barnabas Collins 
+2013 	The Lone Ranger 	Tonto 	Also executive producer
+2016 	Fantastic Beasts and Where to Find Them 	Gellert Grindelwald 
+2016 	Donald Trump's The Art of the Deal: The Movie 	Donald Trump 
+2018 	Sherlock Gnomes 	Sherlock Gnomes
+
+Johnny Depp roles = [
+"Glen Lantz in A Nightmare on Elm Street",
+"Edward Scissorhands in Edward Scissorhands",
+"Gilbert Grape in What's Eating Gilbert Grape",
+"Donnie Brasco in Donnie Brasco",
+"Raoul Duke in Fear and Loathing in Las Vegas",
+"Ichabod Crane in Sleepy Hollow",
+"George Jung in Blow",
+"Captain Jack Sparrow in Pirates of the Caribbean    ",
+"Sands in Once Upon a Time in Mexico",
+"Willy Wonka in Charlie and the Chocolate Factory",
+"Sweeney Todd in Sweeney Todd: The Demon Barber of Fleet Street",
+"Imaginarium Tony Cameo in The Imaginarium of Doctor Parnassus",
+"John Dillinger in Public Enemies",
+"Tarrant Hightopp in Alice in Wonderland",
+"Barnabas Collins in Dark Shadows",
+"Tonto in The Lone Ranger",
+"Gellert Grindelwald in Fantastic Beasts and Where to Find Them",
+"Donald Trump in Donald Trump's The Art of the Deal: The Movie",
+"Sherlock Gnomes in Sherlock Gnomes",
+]
