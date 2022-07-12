@@ -56,6 +56,8 @@ antarctic text prompts not deleting the .txt after prompts are used, and the sta
 when i stop and restart a print with antarctic prompts it gives me the original prompt again instead of having 
   the most recent antarctic prompt
 
+put ffmbeg and new upscaling into youtube description
+
 eventually make a warning for when an interpolation is attempted with settings that have failed in the past
   this isnt totally straight forward because i think it also depends on if another gpu is runnnig and how intensely
   SUPER Eventually, once we get a custom interpolation set up we can use that if the settings as is would crash.
