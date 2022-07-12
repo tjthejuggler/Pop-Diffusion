@@ -45,6 +45,12 @@ guided zoom:
     hook up OD zoom
     possible to update position/size of box as zoom happens?
 
+external TPU
+  get it set up on a the free account(so long as the free account can connect to main gdrive)
+  make it so multiple requests can be sent from multiple other gpus
+    just send a random id number with a request image and then delete the file with that id number
+      and send the id number backon the response file, then have the original sender look for that id number when selecting a file and when deleting
+
 antarctic text prompts not deleting the .txt after prompts are used, and the start_time is not being reset after it is used
 
 when i stop and restart a print with antarctic prompts it gives me the original prompt again instead of having 
