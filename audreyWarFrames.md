@@ -4,3 +4,24 @@
 frames_scale_input =  "0: (2000), 142: (2000), 143: (1100), 239: (1100), 240: (2000), 323: (2000), 446: (400), 447: (1100), 528: (1100), 529: (400), 715: (400), 716: (1100), 761: (1100), 762: (400), 864: (400), 865: (1100), 919: (1100), 920: (2000)"#@param{type: 'string'}
 #@markdown `frames_skip_steps` will blur the previous frame - higher values will flicker less but struggle to add enough new detail to zoom into.
 frames_skip_steps_input = "0: (95), 142: (95), 143: (65), 239: (65), 240: (95), 323: (95), 446: (40), 447: (65), 528: (65), 529: (40), 715: (40), 716: (65), 761: (65), 762: (40), 864: (40), 865: (65), 919: (65), 920: (95)" #@param{type: 'string'}
+
+
+4.23 man appears 	143
+8 woman appears	240
+10.24 woman starts walking forward	324
+14.27 man appears	447
+17.19 woman appears	529
+23.26 man	716
+25.12woman	762
+28.25man	865
+30.20 final woman	920
+
+34 * 30 	1020 full
+
+0: (1), 142: (1), 143: (4), 239: (4), 240: (1), 323: (1), 446: (8), 447: (4), 528: (4), 529: (8), 715: (8), 716: (4), 761: (4), 762: (8), 864: (8), 865: (4), 919: (4), 920: (1)
+
+
+frames_scale_input =  "0: (2000), 142: (2000), 143: (1100), 239: (1100), 240: (2000), 323: (2000), 446: (400), 447: (1100), 528: (1100), 529: (400), 715: (400), 716: (1100), 761: (1100), 762: (400), 864: (400), 865: (1100), 919: (1100), 920: (2000)"#@param{type: 'string'}
+#@markdown `frames_skip_steps` will blur the previous frame - higher values will flicker less but struggle to add enough new detail to zoom into.
+frames_skip_steps_input = "0: (95), 142: (95), 143: (65), 239: (65), 240: (95), 323: (95), 446: (40), 447: (65), 528: (65), 529: (40), 715: (40), 716: (65), 761: (65), 762: (40), 864: (40), 865: (65), 919: (65), 920: (95)" #@param{type: 'string'}
+
