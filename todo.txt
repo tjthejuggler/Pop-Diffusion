@@ -200,4 +200,14 @@ Research:
   find out how many notebooks other people are running at same time in pro+
   learn about skip_augs
 
-
+bbox jupyter:
+  run this in an ipynb
+    https://github.com/gereleth/jupyter-bbox-widget/
+  figure out how to modify its code so that you can change things (for example make the p key do the same thing as the w key - move the box up)
+  in order to do this you will need to pull the repo instead of just installing it from pip and importing it
+    you will need to have the code locally and then you can import it
+      maybe before doing this you will want to learn how to make a simple python program and then import it as an external library
+        once you can do this then maybe you can modify the bbox widget code and import your modified code in the same way
+  the part of the code that assigns stuff to the keypresses is in here
+    https://github.com/gereleth/jupyter-bbox-widget/blob/main/src/BBoxWidget.svelte
+  eventually we want to modify this code in such a way that allows us to rotate the box so that it can be a diamond and everywhere in between
