@@ -53,6 +53,10 @@ external TPU
 
 antarctic text prompts not deleting the .txt after prompts are used, and the start_time is not being reset after it is used
 
+in video animation:
+  instead of using the video frames, after the first frame use the interpolation of the previous generated frame and the next video frame.
+  also, make a way to sometimes use exactly the video frame(in these cases don't do the above thing)
+
 when i stop and restart a print with antarctic prompts it gives me the original prompt again instead of having 
   the most recent antarctic prompt
 
