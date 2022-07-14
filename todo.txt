@@ -60,6 +60,11 @@ in video animation:
 when i stop and restart a print with antarctic prompts it gives me the original prompt again instead of having 
   the most recent antarctic prompt
 
+make instructions to use rife exe in features
+hook up toggle to turn off rife interpolation
+  it should only work if doing video animation
+  make a setting series for turning it on and off for certain frames
+
 put ffmbeg and new upscaling into youtube description
 
 eventually make a warning for when an interpolation is attempted with settings that have failed in the past
