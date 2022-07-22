@@ -65,6 +65,31 @@ hook up toggle to turn off rife interpolation
   it should only work if doing video animation
   make a setting series for turning it on and off for certain frames
 
+aud 0 - no interp
+aud 2 - interp at first woman (but less frames_scale/frames_skip_steps as 0)
+aud 3 - interp whole time (lower specs b/c worse gpu)
+aud 4 - exactly the same as 0, but with interp the whole time
+
+aud improvements:
+      around 398 the white clock lines up perfect as a big daisy behind her ear
+      make her start out as barely vaguely alien/cyborg  
+        he then starts out as a normal human
+
+add keyframes to basic settings and make a pull request of it
+
+turn ccmixter stuff into a seperate pip that takes in a search term and eventually other restrictions
+  and automatically downloads the song and returns a path to it and its credits
+
+
+
+
+video frame interp helper:
+  this needs a better name
+  make its settingsc
+  onsolidate its notes
+  maybe taking a 1/4 interp would make it more cohesive and less flickery
+
+
 put ffmbeg and new upscaling into youtube description
 
 eventually make a warning for when an interpolation is attempted with settings that have failed in the past

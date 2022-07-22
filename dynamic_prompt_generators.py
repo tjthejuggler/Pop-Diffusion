@@ -697,3 +697,145 @@ for i in range(200):
 image_prompts = {
     # 0:['ImagePromptsWorkButArentVeryGood.png:2',],
 }
+
+#--------------------------------------
+
+text_prompts = {}
+creepy_weight = -10
+ador_weight = 12
+for i in range(200):
+    if i > 190:
+        text_prompts[i] = [
+            "Detailed picture of an rotten smoldering dead face smokey ash tree, elderly old person faces etched into tree, small green spouts starting to grow from the ground, by Jonathan Romeo, trending on artstation, instagram, octane render, unreal engine, realistic human eyes, piercing Heterochromia eyes, realistic human flesh:12",
+            "text:-6",
+            "glasses:-3",
+            "creepy: "+str(creepy_weight),
+            "color: 9"
+        ]  
+    elif i > 175:
+        text_prompts[i] = [
+            "Beautiful detailed portrait of a old dying elderly "+str(i)+" year old person rotten tree dying lifeless, fallen leaves by Jonathan Romeo, trending on artstation, instagram, octane render, unreal engine, realistic human eyes, piercing Heterochromia eyes, realistic human flesh:12",
+            "text:-6",
+            "glasses:-3",
+            "creepy: "+str(creepy_weight),
+            "color: 9"
+        ]  
+    elif i > 160:
+        text_prompts[i] = [
+            "Beautiful detailed portrait of a old dying ancient mummy "+str(i)+" year old rotten tree dying lifeless, fallen leaves by Jonathan Romeo, trending on artstation, instagram, octane render, unreal engine, realistic human eyes, piercing Heterochromia eyes, realistic human flesh:12",
+            "text:-6",
+            "glasses:-3",
+            "creepy: "+str(creepy_weight),
+            "color: 9"
+        ]  
+    elif i > 150:
+        text_prompts[i] = [
+            "Beautiful detailed portrait of frail elderly dying "+str(i)+" year old tree man hybrid ancient God by Jonathan Romeo, trending on artstation, instagram, octane render, unreal engine, realistic human eyes, piercing Heterochromia eyes, realistic human flesh:12",
+            "text:-6",
+            "glasses:-3",
+            "creepy: "+str(creepy_weight),
+            "color: 9"
+        ]   
+    elif i > 130:
+        text_prompts[i] = [
+            "Beautiful detailed portrait of frail wise "+str(i-30)+" year old tree hybrid diety by Jonathan Romeo, trending on artstation, instagram, octane render, unreal engine, realistic human eyes, piercing Heterochromia eyes, realistic human flesh:12",
+            "text:-6",
+            "glasses:-3",
+            "creepy: "+str(creepy_weight),
+            "color: 9"
+        ]     
+    elif i > 80:
+        text_prompts[i] = [
+            "Beautiful detailed portrait of strong muscular "+str(i-30)+" year old person fused to a magical tree by Jonathan Romeo, trending on artstation, instagram, octane render, unreal engine, realistic human eyes, piercing Heterochromia eyes, realistic human flesh:12",
+            "text:-6",
+            "glasses:-3",
+            "creepy: "+str(creepy_weight),
+            "color: 9"
+        ]    
+    elif i > 30:
+        text_prompts[i] = [
+            "Beautiful detailed portrait of a "+str(i-30)+" year old tree hybrid God by Jonathan Romeo, trending on artstation, instagram, octane render, unreal engine, realistic human eyes, piercing Heterochromia eyes, realistic human flesh:12",
+            "text:-6",
+            "glasses:-3",
+            "creepy: "+str(creepy_weight),
+            "adorable: "+str(ador_weight),
+            "color: 9"
+        ]
+    elif i > 25:
+        text_prompts[i] = [
+            "Beautiful detailed portraits of "+str(i-25)+" months old tree hybrid demigods by Jonathan Romeo, trending on artstation, instagram, octane render, unreal engine, realistic human eyes, piercing Heterochromia eyes, realistic human flesh:12",
+            "text:-6",
+            "glasses:-3",
+             "adorable: "+str(ador_weight),
+             "color: 6"
+        ]
+    elif i > 20:
+        text_prompts[i] = [
+            "Beautiful detailed portrait of many adorable "+str(i-20)+" day old baby fruit babies h by Jonathan Romeo, trending on artstation, instagram, octane render, unreal engine, realistic human eyes, piercing Heterochromia eyes, realistic human flesh:12",
+            "text:-6",
+            "glasses:-3",
+            "adorable: "+str(ador_weight),
+            "color: 6"
+        ]
+    elif i > 10:
+          text_prompts[i] = [
+            "Beautiful detailed portraits of babies on a "+str(i*10)+" meter growing, many baby heads by Nick Silva, Shin JeongHo, Jim Burns, Symmetrical composition with tree centered, trending on artstation, colorized:12",
+            "text:-6",
+            "glasses:-3",
+            "color: 3"
+        ]
+    else:
+          text_prompts[i] = [
+            "Beautiful detailed huge realistic tree, "+str(i+1)+" small multicolored circular fruits by Nick Silva, Jim Burns, Symmetrical composition with plant centered, trending on artstation, colorized:12",
+            "text:-6",
+            "color: 3"
+        ]
+    
+    if i>30 and (i+5) % 10 == 0:
+          creepy_weight+=1
+    if i>20 and i % 10 == 0:
+          ador_weight-=1
+
+image_prompts = {
+    # 0:['ImagePromptsWorkButArentVeryGood.png:2',],
+}
+
+
+#V5.6 Morphing elf --------------------------------------
+ 
+text_prompts = {}
+
+for i in range(110):
+    # text_prompts[i] = ["Beautiful detailed portrait of a man from the year "+str(((i+1)*25)+100)+" by Jonathan Romeo, Symmetrical composition with people centered, trending on artstation:4",
+    #    "text:-2", "glasses:-1"]
+    j = i
+    if j > 25:
+        text_prompts[i] = [
+            "Beautiful detailed portrait of an attractive "+str(j-10)+" year old elf woman by Jonathan Romeo, trending on artstation, instagram, octane render, unreal engine, realistic human eyes, piercing Heterochromia eyes, realistic human flesh:4",
+            "text:-2",
+            "glasses:-1"
+        ]
+
+    if j > 10:
+        text_prompts[i] = [
+            "Beautiful detailed portrait of a "+str(j-10)+" year old elf girl by Jonathan Romeo, trending on artstation, instagram, octane render, unreal engine, realistic human eyes, piercing Heterochromia eyes, realistic human flesh:4",
+            "text:-2",
+            "glasses:-1"
+        ]
+    elif j > 5:
+        text_prompts[i] = [
+            "Beautiful detailed portrait of a "+str(j-5)+" month old elf girl by Jonathan Romeo, trending on artstation, instagram, octane render, unreal engine, realistic human eyes, piercing Heterochromia eyes, realistic human flesh:4",
+            "text:-2",
+            "glasses:-1"
+        ]
+    else:
+        text_prompts[i] = [
+            "Beautiful detailed portrait of an adorable "+str(j)+" day old elf baby by Jonathan Romeo, trending on artstation, instagram, octane render, unreal engine, realistic human eyes, piercing Heterochromia eyes, realistic human flesh:4",
+            "text:-2",
+            "glasses:-1",
+            "color: 1"
+        ]
+
+    image_prompts = {
+        # 0:['ImagePromptsWorkButArentVeryGood.png:2',],
+    }
